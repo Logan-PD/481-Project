@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-build_property.ProjectDir = /home/lipd/Desktop/481/project_code/BlazorApp/
+build_property.ProjectDir = /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/lipd/Desktop/481/project_code/BlazorApp
+build_property.MSBuildProjectDirectory = /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/App.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Counter.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Index.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/LogansPage.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Pages/LogansPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nYW5zUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/_Imports.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Pages/YiannisPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvWWlhbm5pc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Shared/MainLayout.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3ij3p7wwc4
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Shared/NavMenu.razor]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wk4bcz64v1
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/_Host.cshtml]
+[/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

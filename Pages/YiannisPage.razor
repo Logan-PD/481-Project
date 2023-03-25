@@ -1,0 +1,49 @@
+@page "/YiannisPage"
+
+<div class="side-panel" style="left: -250px;">
+
+</div>
+
+<div class="container">
+    <div class="sidebar" style="left: @(showPanel ? "0px" : "-250px");">
+        <!-- Sidebar content goes here -->
+        <div class="new-folder-button">
+            <button>+</button>
+        </div>
+
+    </div>
+    <div class="main">
+        <!-- Main content goes here -->
+    </div>
+</div>
+
+@code {
+    bool showPanel = true;
+}
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        height: 100%;
+        width: 250px;
+        background-color: #E2E2DF;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        transition: left 0.5s;
+    }
+    .new-folder-button {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+    }
+    .main {
+        flex: 1;
+        padding: 20px;
+    }
+</style>

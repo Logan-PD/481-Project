@@ -8,24 +8,25 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/lipd/.nuget/packages/": {}
+    "/Users/Yianni/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj",
+      "projectUniqueName": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj",
-      "packagesPath": "/home/lipd/.nuget/packages/",
-      "outputPath": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/",
+      "projectPath": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/BlazorApp.csproj",
+      "packagesPath": "/Users/Yianni/.nuget/packages/",
+      "outputPath": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lipd/.nuget/NuGet/NuGet.Config"
+        "/Users/Yianni/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }
