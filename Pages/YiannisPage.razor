@@ -1,30 +1,57 @@
 @page "/YiannisPage"
 
+
 <div class="side-panel" style="left: -250px;">
 
 </div>
 
 <div class="container">
     <div class="sidebar" style="left: @(showPanel ? "0px" : "-250px");">
-        <!-- Sidebar content goes here -->
-        <div class="new-folder-button">
-            <button>+</button>
+        
+        <div class="new-folder-button-container">
+            <button class = "add-folder" @onclick="addFolder">+</button>
+        </div>
+        <div class="folder-container">
+            @foreach(var button in buttons)
+            {
+                <button @onclick="@button.OnClick" style="background: url('https://api.iconify.design/material-symbols/folder-outline.svg?color=%233d348b') no-repeat center center / contain">@button.Label</button>
+            }
         </div>
 
     </div>
     <div class="main">
-        <!-- Main content goes here -->
+       
     </div>
 </div>
 
 @code {
+    List<ButtonInfo> buttons = new List<ButtonInfo>();
+
+    void addFolder()
+    {
+        buttons.Add(new ButtonInfo
+        {
+            Label = $"Button {buttons.Count + 1}"
+        });
+    }
     bool showPanel = true;
+
+    class ButtonInfo
+    {
+        public string Label {get; set; }
+        public Action OnClick {get; set; }
+    }
 }
 
 <style>
     .container {
         display: flex;
         flex-direction: row;
+    }
+    .folder-container {
+        color: #3D348B;
+        display: flex;
+        flex-direction: column;
     }
     .sidebar {
         position: fixed;
