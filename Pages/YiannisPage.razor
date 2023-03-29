@@ -31,11 +31,18 @@
 
     </div>
     <div class="main">
-       <button class="pictures-button"><img src='/images/picture2.jpg'></button>
-       <button class="pictures-button"><img src='/images/picture1.jpg'></button>
-       <button class="pictures-button"><img src='/images/picture3.jpg'></button>
-       <button class="pictures-button"><img src='/images/picture4.jpg'></button>
-       <button class="pictures-button"><img src='/images/picture1.jpg'></button>
+        <div class="picture-wrapper">
+            <button class="pictures-button"><img src='/images/picture2.jpg'></button>
+        </div>
+        <div class="picture-wrapper">
+            <button class="pictures-button"><img src='/images/picture1.jpg'></button>
+        </div>
+        <div class="picture-wrapper">
+            <button class="pictures-button"><img src='/images/picture4.jpg'></button>
+        </div>
+        <div class="picture-wrapper">
+            <button class="pictures-button"><img src='/images/picture3.jpg'></button>
+        </div>
     </div>
 </div>
 
@@ -74,20 +81,33 @@
         justify-content: space-between;
         width: 82%;
     }
+    .picture-wrapper {
+        position: relative;
+    }
+
+    .picture-wrapper:hover .pictures-button img {
+        transform: rotateY(180deg);
+    }
     .pictures-button {
         display: flex;
         justify-content: space-between;
         align-items: center;
         border: none;
-        height: 200px;
+        height: 250px;
         width: auto;
         padding: 0px;
         margin: 10px;
     }
     .pictures-button img {
+        transition: transform 0.5s ease-in-out;
+        backface-visibility: hidden;
         height: 100%;
         width: 100%;
         object-fit: cover;
+            transform: rotateY(0deg);
+    }
+    .pictures-button img.back {
+        transform: rotateY(180deg);
     }
     .top-button {
         height: 50px;
