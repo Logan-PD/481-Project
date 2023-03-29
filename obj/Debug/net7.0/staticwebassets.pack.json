@@ -57,6 +57,22 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture1.jpg",
+      "PackagePath": "staticwebassets/images/picture1.jpg"
+    },
+    {
+      "Id": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture2.jpg",
+      "PackagePath": "staticwebassets/images/picture2.jpg"
+    },
+    {
+      "Id": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture3.jpg",
+      "PackagePath": "staticwebassets/images/picture3.jpg"
+    },
+    {
+      "Id": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture4.jpg",
+      "PackagePath": "staticwebassets/images/picture4.jpg"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

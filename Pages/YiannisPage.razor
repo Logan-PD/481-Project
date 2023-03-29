@@ -1,6 +1,5 @@
 @page "/YiannisPage"
 
-
 <div class="side-panel" style="left: -250px;">
 
 </div>
@@ -21,25 +20,40 @@
 
     </div>
     <div class="top-panel">
-        <button class="top-button">Upload</button>
+        <NavLink href="UploadPage">
+            <button class="top-button">Upload</button>
+        </NavLink>
         <button class="top-button">Collection Details</button>
         <button class="top-button">Compare...</button>
         <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Go</button>
+            <input type="text" placeholder="Search..." @bind-value="searched" @onkeydown="Search">
         </div>
 
     </div>
     <div class="main">
-       
+       <button class="pictures-button"><img src='/images/picture2.jpg'></button>
+       <button class="pictures-button"><img src='/images/picture1.jpg'></button>
+       <button class="pictures-button"><img src='/images/picture3.jpg'></button>
+       <button class="pictures-button"><img src='/images/picture4.jpg'></button>
+       <button class="pictures-button"><img src='/images/picture1.jpg'></button>
     </div>
 </div>
 
 @code {
     List<ButtonInfo> buttons = new List<ButtonInfo>();
+    private string searched = "";
+
+    void Search(KeyboardEventArgs k)
+    {
+        if(k.Key == "Enter")
+        {
+            Console.WriteLine("Searched: " + searched);
+        }
+    }
 
     void addFolder()
     {
+        // will have to open the upload page then once that is done come back here
         buttons.Add(new ButtonInfo{});
     }
     bool showPanel = true;
@@ -52,6 +66,29 @@
 }
 
 <style>
+    .main {
+        position: fixed;
+        display: flex;
+        left: 250px;
+        top: 150px;
+        justify-content: space-between;
+        width: 82%;
+    }
+    .pictures-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        height: 200px;
+        width: auto;
+        padding: 0px;
+        margin: 10px;
+    }
+    .pictures-button img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
     .top-button {
         height: 50px;
         width: 170px;
@@ -117,17 +154,8 @@
         padding: 10px;
     }
     .search-bar {
-        display: flex;
-        align-items: center;
-        padding-right: 5px 10px;
-        width: 300px;
-        border-radius: 5px;
-    }
-    .search-bar input {
-        flex: 1;
-        border: none;
-        padding: 5px;
-        font-size: 16px;
+        position: absolute;
+        right: 260px;
     }
     .main {
         flex: 1;
