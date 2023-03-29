@@ -9,13 +9,24 @@
     <div class="sidebar" style="left: @(showPanel ? "0px" : "-250px");">
         
         <div class="new-folder-button-container">
-            <button class = "add-folder" @onclick="addFolder">+</button>
+            <button class = "add-folder" @onclick="addFolder"></button>    
         </div>
         <div class="folder-container">
             @foreach(var button in buttons)
             {
-                <button @onclick="@button.OnClick" style="background: url('https://api.iconify.design/material-symbols/folder-outline.svg?color=%233d348b') no-repeat center center / contain">@button.Label</button>
+                <button class="folder-button" @onclick="@button.OnClick">@button.Label</button>
+                 <span class="folder-text">Folder</span>
             }
+        </div>
+
+    </div>
+    <div class="top-panel">
+        <button class="top-button">Upload</button>
+        <button class="top-button">Collection Details</button>
+        <button class="top-button">Compare...</button>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Go</button>
         </div>
 
     </div>
@@ -29,10 +40,7 @@
 
     void addFolder()
     {
-        buttons.Add(new ButtonInfo
-        {
-            Label = $"Button {buttons.Count + 1}"
-        });
+        buttons.Add(new ButtonInfo{});
     }
     bool showPanel = true;
 
@@ -44,14 +52,45 @@
 }
 
 <style>
-    .container {
+    .top-button {
+        height: 50px;
+        width: 170px;
+        margin: 25px;
+        color: white;
+        border-radius: 5px;
+        background: #3D348B;
+    }
+    .top-panel {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 250px;
+        height: 150px;
+        width: 100%;
+        background-color: #E2E2DF;
+        transition: left 0.5s;
+    }
+    .folder-button
+    {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: transparent;
+        height: 100px;
+        width: 100px;
+        background: url('https://api.iconify.design/material-symbols/folder-outline.svg?color=%233d348b')  no-repeat center center / contain
     }
     .folder-container {
         color: #3D348B;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .folder-text {
+        margin-top: 7px;
+        fontsize: 12px;
+        color: #000;
     }
     .sidebar {
         position: fixed;
@@ -60,14 +99,35 @@
         height: 100%;
         width: 250px;
         background-color: #E2E2DF;
-        box-shadow: 0 0 10px rgba(0,0,0,0.2);
         transition: left 0.5s;
+    }
+    .add-folder {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: transparent;
+        height: 50px;
+        width: 50px;
+        background: url('https://api.iconify.design/ph/plus-circle-fill.svg?color=%233d348b')  no-repeat center center / contain
     }
     .new-folder-button {
         position: absolute;
         top: 0;
         left: 0;
         padding: 10px;
+    }
+    .search-bar {
+        display: flex;
+        align-items: center;
+        padding-right: 5px 10px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    .search-bar input {
+        flex: 1;
+        border: none;
+        padding: 5px;
+        font-size: 16px;
     }
     .main {
         flex: 1;

@@ -30,14 +30,6 @@
 /home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/BlazorApp.RazorAssemblyInfo.cache
 /home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/BlazorApp.RazorAssemblyInfo.cs
 /home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/appsettings.Development.json
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/appsettings.json
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.staticwebassets.runtime.json
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.deps.json
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.runtimeconfig.json
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.dll
-/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.pdb
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/BlazorApp.csproj.AssemblyReference.cache
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/BlazorApp.AssemblyInfoInputs.cache
@@ -46,6 +38,14 @@
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/BlazorApp.MvcApplicationPartsAssemblyInfo.cache
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/BlazorApp.RazorAssemblyInfo.cache
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/BlazorApp.RazorAssemblyInfo.cs
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/appsettings.Development.json
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/appsettings.json
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.staticwebassets.runtime.json
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.deps.json
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.runtimeconfig.json
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.dll
+/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/bin/Debug/net7.0/BlazorApp.pdb
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/staticwebassets/msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/staticwebassets/msbuild.build.BlazorApp.props
 /Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlazorApp.props
