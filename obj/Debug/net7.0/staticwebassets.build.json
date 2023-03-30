@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FHrsK6NqdmDi4x8c0Tp2LcfMup+IN7iMqW9K/w+2LBQ=",
+  "Hash": "167cbNMBYeaJUdv46fob8GNfgaFavhoHdyyT/bHnabE=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorApp/wwwroot",
+      "Name": "BlazorApp\\wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/scopedcss/bundle/BlazorApp.styles.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/scopedcss/bundle/BlazorApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/open-iconic/README.md",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\css\\site.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\favicon.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -269,13 +269,47 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture1.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\images\\background.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\images\\logo.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\images\\picture1.jpg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/picture1.jpg",
       "AssetKind": "All",
@@ -286,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/picture1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\picture1.jpg"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture2.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\images\\picture2.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/picture2.jpg",
       "AssetKind": "All",
@@ -303,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/picture2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\picture2.jpg"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture3.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\images\\picture3.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/picture3.jpg",
       "AssetKind": "All",
@@ -320,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/picture3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\picture3.jpg"
     },
     {
-      "Identity": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/images/picture4.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\images\\picture4.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/Yianni/Desktop/Winter 2023/CPSC 481/Project/481-Project/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/picture4.jpg",
       "AssetKind": "All",
@@ -337,7 +371,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/picture4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\picture4.jpg"
     }
   ]
 }
