@@ -1,14 +1,27 @@
-@page "/help"
+﻿@page "/help"
 
 <PageTitle>Help</PageTitle>
 
+@inherits LayoutComponentBase
 
-<p>
-</p>
+<header>
+    <h1>Ah</h1>
+</header>
 
+<nav>
+    <a href="one">Here is</a>
+    <a href="two">the NavBar</a>
+    <a href="three">I suppose</a>
+</nav>
 
-<HeadContent>
-</HeadContent>
+@Body
+
+<footer>
+    @TrademarkMessage
+</footer>
 
 @code {
+    public string TrademarkMessage { get; set; } = 
+        "Team Unlucky Charm" +
+        "User: ID";
 }
