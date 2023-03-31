@@ -94,3 +94,35 @@ C:\Users\Daniel Chau\Desktop\481Project\obj\Debug\net7.0\refint\BlazorApp.dll
 C:\Users\Daniel Chau\Desktop\481Project\obj\Debug\net7.0\BlazorApp.pdb
 C:\Users\Daniel Chau\Desktop\481Project\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 C:\Users\Daniel Chau\Desktop\481Project\obj\Debug\net7.0\ref\BlazorApp.dll
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\appsettings.json
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\BlazorApp.staticwebassets.runtime.json
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\BlazorApp.exe
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\BlazorApp.deps.json
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\BlazorApp.runtimeconfig.json
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\BlazorApp.dll
+C:\Users\User\Documents\GitHub\481-Project\bin\Debug\net7.0\BlazorApp.pdb
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.RazorAssemblyInfo.cache
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.RazorAssemblyInfo.cs
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorApp.props
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp.props
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorApp.props
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\scopedcss\bundle\BlazorApp.styles.css
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.dll
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\refint\BlazorApp.dll
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.pdb
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\481-Project\obj\Debug\net7.0\ref\BlazorApp.dll
