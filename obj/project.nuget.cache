@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PhnFxKC4ZbiX4LTqmveMv2SfCrZmTQ/tXXGUtD5+0FhE+ygXogmweHj9PQAr54gJmYxcIPtUsrUVQ1TiaTVrMA==",
+  "dgSpecHash": "pDzrSO/AS2yLhQmiTCxpulT5ChhK1RjmARgX0NarUhgsk4cOFI3+e6EenfYJAIOIpAPLcQv7DDJBclDevF66rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel Chau\\Desktop\\481Project\\BlazorApp.csproj",
+  "projectFilePath": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\BlazorApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
