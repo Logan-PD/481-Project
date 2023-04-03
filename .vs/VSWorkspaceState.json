@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pages"
+    "\\Pages",
+    "\\wwwroot",
+    "\\wwwroot\\images"
   ],
+  "SelectedNode": "\\Pages\\Login.razor",
   "PreviewInSolutionExplorer": false
 }
