@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\images\\background.jpg"
     },
     {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\down.png",
+      "PackagePath": "staticwebassets\\images\\down.png"
+    },
+    {
       "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\help.svg",
       "PackagePath": "staticwebassets\\images\\help.svg"
     },
@@ -91,6 +95,30 @@
     {
       "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture4.jpg",
       "PackagePath": "staticwebassets\\images\\picture4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture5.png",
+      "PackagePath": "staticwebassets\\images\\picture5.png"
+    },
+    {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture6.webp",
+      "PackagePath": "staticwebassets\\images\\picture6.webp"
+    },
+    {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture7.jpg",
+      "PackagePath": "staticwebassets\\images\\picture7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture8.jpg",
+      "PackagePath": "staticwebassets\\images\\picture8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture9.jpg",
+      "PackagePath": "staticwebassets\\images\\picture9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\upward.png",
+      "PackagePath": "staticwebassets\\images\\upward.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
