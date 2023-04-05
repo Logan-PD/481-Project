@@ -1,123 +1,123 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\alice.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\alice.png",
       "PackagePath": "staticwebassets\\images\\alice.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\background.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\background.jpg",
       "PackagePath": "staticwebassets\\images\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\down.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\down.png",
       "PackagePath": "staticwebassets\\images\\down.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\help.svg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\help.svg",
       "PackagePath": "staticwebassets\\images\\help.svg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\logout.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\logout.png",
       "PackagePath": "staticwebassets\\images\\logout.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture1.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture1.jpg",
       "PackagePath": "staticwebassets\\images\\picture1.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture2.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture2.jpg",
       "PackagePath": "staticwebassets\\images\\picture2.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture3.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture3.jpg",
       "PackagePath": "staticwebassets\\images\\picture3.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture4.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture4.jpg",
       "PackagePath": "staticwebassets\\images\\picture4.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture5.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture5.png",
       "PackagePath": "staticwebassets\\images\\picture5.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture6.webp",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture6.webp",
       "PackagePath": "staticwebassets\\images\\picture6.webp"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture7.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture7.jpg",
       "PackagePath": "staticwebassets\\images\\picture7.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture8.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture8.jpg",
       "PackagePath": "staticwebassets\\images\\picture8.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picture9.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\picture9.jpg",
       "PackagePath": "staticwebassets\\images\\picture9.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\upward.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\481-Project\\wwwroot\\images\\upward.png",
       "PackagePath": "staticwebassets\\images\\upward.png"
     },
     {

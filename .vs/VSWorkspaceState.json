@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Pages",
+    "\\Shared",
     "\\wwwroot",
     "\\wwwroot\\images"
   ],
-  "SelectedNode": "\\Pages\\Login.razor",
+  "SelectedNode": "\\Shared\\NavMenu.razor",
   "PreviewInSolutionExplorer": false
 }
