@@ -1,13 +1,14 @@
 ﻿@page "/help"
+@inject IJSRuntime JS
 
 <PageTitle>Help</PageTitle>
 
 @inherits LayoutComponentBase
 
 <div class="header">
-  <a href="#default" class="logo">CompanyLogo</a>
+  <a href="Homepage" class="logo">CompanyLogo</a>
   <div class="header-right">
-    <a class="active" href="#help">Help</a>
+    <a class="active" href="Help">Help</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
   </div>
@@ -17,17 +18,17 @@
 
 <div class="parent-container">
   <ul class="faq">
-    <li>
-      <h3 class="question">Frequently Asked Question?
-        <div class="plus-minus-toggle collapsed"></div>
+    <li class="@Active1">
+      <h3 class="question" @onclick="() => Toggle(1)">Frequently Asked Question? 
+        <div class="@PlusMinus1" ></div>
       </h3>
       <div class="answer">Answer. Donec vitae tellus risus. Aenean sed fermentum risus. Phasellus venenatis 
         ultricies dignissim. Nunc ante lectus, accumsan non porta at. Donec vitae tellus risus. Aenean sed 
         fermentum risus. Phasellus venenatis ultricies dignissim.</div>
     </li>
-    <li>
-      <h3 class="question">Frequently Asked Question?
-        <div class="plus-minus-toggle collapsed"></div>
+    <li class="@Active2">
+      <h3 class="question" @onclick="() => Toggle(2)">Frequently Asked Question? 
+        <div class="@PlusMinus2" ></div>
       </h3>
       <div class="answer">Answer. Donec vitae tellus risus. Aenean sed fermentum risus. Phasellus venenatis 
         ultricies dignissim. Nunc ante lectus, accumsan non porta at. Donec vitae tellus risus. Aenean sed 
@@ -41,8 +42,52 @@
   <p>Name: ID</p>
 </footer> 
 
-@code {
+@functions {
+    string Active1 { get; set; }
+    string Active2 { get; set; }
+    string PlusMinus1 { get; set; }
+    string PlusMinus2 { get; set; }
 }
+
+
+@code {
+    protected override void OnInitialized() {
+        Active1 = " ";
+        Active2 = " ";
+        PlusMinus1 = "plus-minus-toggle collapsed";
+        PlusMinus2 = "plus-minus-toggle collapsed";
+    }
+    private async Task Toggle(int a) {
+        switch (a) {
+            case 1:
+                if (String.Equals(Active1, " ")) {
+                    Active1 = "active";
+                } else {
+                    Active1 = " ";
+                }
+                if (String.Equals(PlusMinus1, "plus-minus-toggle collapsed")) {
+                    PlusMinus1 = "plus-minus-toggle";
+                } else {
+                    PlusMinus1 = "plus-minus-toggle collapsed";
+                }
+                break;
+            case 2:
+                if (String.Equals(Active2, " ")) {
+                    Active2 = "active";
+                } else {
+                    Active2 = " ";
+                }
+                if (String.Equals(PlusMinus2, "plus-minus-toggle collapsed")) {
+                    PlusMinus2 = "plus-minus-toggle";
+                } else {
+                    PlusMinus2 = "plus-minus-toggle collapsed";
+                }
+                break;
+        }
+    }
+}
+
+
 
 <style>
     .parent-container {
