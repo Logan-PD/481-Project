@@ -1,3 +1,19 @@
-@page "/Details"
+@page "/Details/{image}"
 
 <h1>Details Page</h1>
+
+<p>@image</p>
+<img src=@imageSrc alt="">
+
+
+@code {
+    [Parameter]
+    public string image { get; set; }
+    private string imageSrc;
+
+
+    protected override void OnInitialized()
+    {
+        imageSrc = $"images/{image}.jpg";
+    }
+}
