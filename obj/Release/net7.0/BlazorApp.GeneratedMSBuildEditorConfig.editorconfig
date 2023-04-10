@@ -9,69 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-build_property.ProjectDir = C:\Users\Daniel Chau\Desktop\481-Project\
+build_property.ProjectDir = C:\Users\User\Documents\GitHub\481-Project\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Daniel Chau\Desktop\481-Project
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\GitHub\481-Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/App.razor]
+[C:/Users/User/Documents/GitHub/481-Project/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Compare.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Archive.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJjaGl2ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Compare.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Counter.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Details.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Help.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Help.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVscC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Homepage.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Homepage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Index.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/LogansPage.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/LogansPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nYW5zUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Login.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/UploadPage.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Mainpage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Mountains.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW91bnRhaW5zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Newyork.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9yay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/UploadPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/YiannisPage.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/YiannisPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWWlhbm5pc1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/_Imports.razor]
+[C:/Users/User/Documents/GitHub/481-Project/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Shared/MainLayout.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Shared/NavMenu.razor]
+[C:/Users/User/Documents/GitHub/481-Project/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/_Host.cshtml]
+[C:/Users/User/Documents/GitHub/481-Project/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

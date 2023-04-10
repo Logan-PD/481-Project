@@ -3,8 +3,9 @@
     "",
     "\\Pages",
     "\\Shared",
-    "\\wwwroot"
+    "\\wwwroot",
+    "\\wwwroot\\images"
   ],
-  "SelectedNode": "\\Pages\\Homepage.razor",
+  "SelectedNode": "\\Pages\\Help.razor",
   "PreviewInSolutionExplorer": false
 }

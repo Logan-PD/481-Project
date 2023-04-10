@@ -6,11 +6,13 @@
 @inherits LayoutComponentBase
 
 <div class="header">
-  <a href="Homepage" class="logo">CompanyLogo</a>
+  <a href="Homepage" class="logo">
+      <img src="/images/logo.png" alt="Logo" class="img-fluid">
+      SnappShot 
+  </a>
   <div class="header-right">
     <a class="active" href="Help">Help</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#Login">Login</a>
   </div>
 </div>
 
@@ -91,7 +93,7 @@
 
 <style>
     .parent-container {
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
   max-width: 800px;
   width: 100%;
 }
@@ -118,6 +120,7 @@
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+  background: url(../wwwroot/images/logo.png) no-repeat center center fixed;
 }
 
 /* Change the background color on mouse-over */
