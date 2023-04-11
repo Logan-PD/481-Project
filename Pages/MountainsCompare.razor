@@ -1,0 +1,439 @@
+@page "/MountainsCompare"
+
+
+
+ <div class="main-content">
+            <div class="box">
+                <img class="content-image" src="images/pyteo.jpg" alt="">
+               <div class="img-text">
+                    @if (showCheckboxes){
+                     <div>
+                        <input type="checkbox" id="compare" name="compare" >
+                        <label for="compare">Add to compare</label>
+                    </div> 
+                    }
+                    else
+                    {
+                    <div class="content">
+                         <h2>Pyeto Lake</h2>
+                           <p class="up">Today Sales: 2 Sold</p>
+                           <p class="down">Weekly Sales: 10 Sold</p>
+                           <p class="up">Monthly Sales: 20 Sold </p>
+                           <NavLink class ="nav-link" href="Details/pyeto"> <button class="expand-button">Expand Details</button> </NavLink >
+                   </div>
+                   }
+            </div>
+         
+                </div>
+             <div class="box">
+                <img class="content-image" src="images/hara.jpg" alt="">
+                <div class="img-text">
+                     @if (showCheckboxes){
+                     <div>
+                        <input type="checkbox" id="compare" name="compare" >
+                        <label for="compare">Add to compare</label>
+                    </div> 
+                    }
+                    else
+                    {
+                    <div class="content">
+                        <h2>Lake O'Hara</h2>
+                        <p class="down">Today Sales: 0 Sold</p>
+                        <p class="down">Weekly Sales: 5 Sold</p>
+                        <p class="down">Monthly Sales: 7 Sold </p>
+                        <NavLink class ="nav-link" href="Details/hara"> <button class="expand-button">Expand Details</button> </NavLink >
+                    </div>
+                    }
+                </div>
+            </div>
+             <div class="box">
+                <img class="content-image" src="images/everest.jpg" alt="">
+                <div class="img-text">
+                     @if (showCheckboxes){
+                     <div>
+                        <input type="checkbox" id="compare" name="compare" >
+                        <label for="compare">Add to compare</label>
+                    </div> 
+                    }
+                    else
+                    {
+                    <div class="content">
+                        <h2>Everest</h2>
+                        <p class="up">Today Sales: 5 Sold</p>
+                        <p class="up">Weekly Sales: 17 Sold</p>
+                        <p class="down">Monthly Sales: 23 Sold </p>
+                        <NavLink class ="nav-link" href="Details/everest"> <button class="expand-button">Expand Details</button> </NavLink >
+                    </div>
+                    }
+                </div>
+            </div>
+             <div class="box">
+                <img  class="content-image" src="images/fuji.jpg" alt="">
+                <div class="img-text">
+                    @if (showCheckboxes){
+                     <div>
+                        <input type="checkbox" id="compare" name="compare" >
+                        <label for="compare">Add to compare</label>
+                    </div> 
+                    }
+                    else
+                    {
+                    <div class="content">
+                        <h2>Mount Fuji</h2>
+                        <p class="up">Today Sales: 2 Sold</p>
+                        <p class="up">Weekly Sales: 30 Sold</p>
+                        <p class="up">Monthly Sales: 50 Sold </p>
+                        <NavLink class ="nav-link" href="Details/fuji"> <button class="expand-button">Expand Details</button> </NavLink >
+                    </div>
+                    }
+                </div>
+            </div>
+             <div  class="box">
+                <img class="content-image" src="images/ha-ling.jpg" alt="">
+                   <div class="img-text">
+                     @if (showCheckboxes){
+                     <div>
+                        <input type="checkbox" id="compare" name="compare" >
+                        <label for="compare">Add to compare</label>
+                    </div> 
+                    }
+                    else
+                    {
+                    <div class="content">
+                        <h2>Ha Ling Peak</h2>
+                        <p class="up">Today Sales: 2 Sold</p>
+                        <p class="up">Weekly Sales: 5 Sold</p>
+                        <p class="down">Monthly Sales: 18 Sold </p>
+                     <NavLink class ="nav-link" href="Details/ha-ling-peak"> <button class="expand-button">Expand Details</button> </NavLink >
+                    </div>
+                    }
+                </div>
+            </div>
+           
+       
+        </div>
+
+
+        @code {
+
+/* Logic for profile dropdown */
+    private bool showMenu = false;
+
+    private string menuClass => showMenu ? "active" : "";
+
+    private void menuToggle()
+    {
+        showMenu = !showMenu;
+    }
+/* End of logic for profile dropdown */
+
+
+
+   private bool showCheckboxes = true;
+
+    private void ToggleCheckboxes()
+    {
+        showCheckboxes = !showCheckboxes;
+    }
+
+    /* Logic for folder opening/closing */
+
+public class FolderItem
+{
+    public string Text { get; set; }
+    public bool IsCurrent { get; set; }
+}
+
+     private List<FolderItem> FolderItems = new List<FolderItem>
+    {
+        new FolderItem { Text = "Main", IsCurrent = true },
+        new FolderItem { Text = "New York", IsCurrent = false },
+        new FolderItem { Text = "Mountains", IsCurrent = false },
+    };
+
+    private string GetButtonClass(FolderItem item) => item.IsCurrent ? "current-folder-button" : "folder-button";
+
+    private void SetCurrentFolder(FolderItem item)
+    {
+        foreach (var folder in FolderItems)
+        {
+            folder.IsCurrent = false;
+        }
+
+        item.IsCurrent = true;
+    }
+
+ /* End of Logic for folder opening/closing */
+}
+
+
+<style>
+  .nav-link {
+    text-decoration: none;
+    color: black;
+         margin: 0;
+  padding: 0;
+  }
+
+ .box-select {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.main-container {
+    display:grid;
+    grid-template-columns: 10% 90%;
+    height: 100vh;
+    
+}
+
+ .top-nav{
+    display:grid;
+    grid-template-rows: 10% 90%;
+
+ }
+
+.left-nav {
+   display:grid;
+   grid-template-rows: 10% 75% 15%;
+   background-color: #E2E2DF;
+   
+}
+
+.header {
+    background-color: #E2E2DF;
+    margin-bottom: 50px;
+
+    
+}
+  .top-panel {
+     display: flex;
+     align-items: center;
+     background-color: #E2E2DF;
+     transition: left 0.5s;
+}
+
+.content-container {
+  position:absolute;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 10px;
+  display:grid;
+  
+  column-gap:10px;
+  row-gap: 10px
+}
+
+.first-row {
+   margin:5px;
+   border: 1px solid #ccc;
+   float: left;
+   width: 390px;
+}
+
+.content-imgage  {
+   width: 300px;
+   height: 300px;
+   object-fit:cover;
+   object-position: center
+
+}
+
+.photo-name{
+    padding:15px;
+    text-align: center;
+}
+
+
+.add-folder {
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: transparent;
+    height: 50px;
+    width: 50px;
+    background: url('https://api.iconify.design/ph/plus-circle-fill.svg?color=%233d348b')  no-repeat center center / contain
+}
+
+.folder {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.archive-folder {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom:0;
+}
+.current-folder-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: transparent;
+    height: 6em;
+    width: 6em;
+
+    background: url('https://api.iconify.design/material-symbols/folder-open-outline.svg?color=%233d348b') no-repeat center center / contain
+}
+
+.folder-button {
+ 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: transparent;
+    height: 6em;
+    width: 6em;
+    background: url('https://api.iconify.design/material-symbols/folder-outline.svg?color=%233d348b')  no-repeat center center / contain
+}
+
+ .folder-text {
+    position: relative;
+    text-align: center
+  }
+
+ .wrapper{
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;
+    margin: 0 auto; 
+   
+    
+}
+.section-header{
+    text-transform: uppercase;
+    line-height: 70px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: #262626;
+    letter-spacing: 2px;
+    
+}
+.content {
+  padding: 10%;
+}
+.content h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.content p {
+  line-height: 1.5;
+}
+.main-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-main-content-gap: 25px;
+    grid-column-gap: 15px;
+    
+}
+.main-content .box{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    height: 250px;
+    overflow: hidden;    
+}
+.main-content .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.main-content .box:hover:before{
+    top: 0;
+    right: calc(100% - 5px);
+    z-index: 10;
+}
+.main-content .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content .box .img-text {
+	position: absolute;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255,255,255,0.9);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 100%;
+	transition: all 0.5s ease-in-out;	
+}
+.main-content .box:hover .img-text{
+    top: 0;
+    right: 0;
+}
+
+.img-text p {
+        position: relative;
+        padding-left: 30px;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+.img-text .up::before {
+  content: ''; 
+  display: inline-block; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  height: 20px;
+  width: 20px; 
+  background-image: url('images/upward.png'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  margin-top: 2px; 
+  margin-right: 5px; 
+}
+
+.img-text .down::before {
+  content: ''; 
+  display: inline-block; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  height: 20px;
+  width: 20px; 
+  background-image: url('images/down.png'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  margin-top: 2px; 
+  margin-right: 5px; 
+}
+
+    
+.top-button {
+        height: 50px;
+        width: 170px;
+        margin: 25px;
+        color: white;
+        border-radius: 5px;
+        background: #3D348B;
+ }
+
+.expand-button {
+        height: 30px;
+        width: 150px;
+        color: white;
+        border-radius: 5px;
+        background: #3D348B;
+ }
+
+
+
+</style>

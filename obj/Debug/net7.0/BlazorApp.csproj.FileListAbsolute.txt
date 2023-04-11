@@ -190,3 +190,5 @@ C:\Users\yiann\OneDrive\Desktop\481_Project\481-Project\obj\Debug\net7.0\refint\
 C:\Users\yiann\OneDrive\Desktop\481_Project\481-Project\obj\Debug\net7.0\BlazorApp.pdb
 C:\Users\yiann\OneDrive\Desktop\481_Project\481-Project\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 C:\Users\yiann\OneDrive\Desktop\481_Project\481-Project\obj\Debug\net7.0\ref\BlazorApp.dll
+C:\Users\Daniel Chau\Desktop\481-Project\bin\Debug\net7.0\package-lock.json
+C:\Users\Daniel Chau\Desktop\481-Project\bin\Debug\net7.0\package.json
