@@ -16,7 +16,7 @@
     <div class="top-panel">
       <button class="top-button" @onclick="archive">Remove</button>
       <button class="top-button" @onclick="ToggleCheckboxes">Compare...</button>
-      <button class="top-button">Edit</button>
+      <button class="top-button" @onclick="ToggleEdit">Edit</button>
       <div class="profileDropdown">
         <div class="profile" @onclick="menuToggle">
           <img src="./images/alice.png" />
@@ -43,7 +43,7 @@
         </div> 
       }
       <div class="left-col">
-        <h1> <em>@image</em> details </h1>
+        <h1 style="margin-left: 15px;"> <em>@image</em> details </h1>
         <img class="content-image" src="@imageSrc" alt="">
         <div class="stats-container">
           <div style="display: flex; align-items: center;">
@@ -68,9 +68,32 @@
           <span>Total Units Sold</span>
         </div>
       </div>
+      <div class="middle-col">
+        <div class="details-container">
+          @if(edit)
+          {
+            <label for="name">Name: </label>
+            <input type="name" id="Name" name="Name" required>
+            <br>
+            <label style="margin-top: 50px;" for="name">Description: </label>
+            <br>
+            <textarea type="name" id="Name" name="Name" required style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+          }
+          @if(!edit)
+          {
+            <label for="name">Name: </label>
+            <input type="name" id="Name" name="Name" readonly>
+            <br>
+            <label style="margin-top: 50px;" for="name">Description: </label>
+            <br>
+            <textarea type="name" id="Name" name="Name" readonly style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+          }
+          
+        </div>
+      </div>
+
 
       <div class="right-col">
-        <h1>Right side</h1>
         <div class="format-container">
           <div class="data-container">
             <h1 style="margin-top: 10px;">Sales</h1>
@@ -85,13 +108,17 @@
         <div class="graph-container">
           @if(sixmo)
           {
-            <img src="./images/test_graph.png">
+            <img style="margin-left: 20px;" src="./images/test_graph.png">
           }
           @if(twmo)
           {
-            <img src="./images/12mo_graph.png">
+            <img style="margin-left: 35px;" src="./images/12mo_graph.png">
           }
         </div>
+        </div>
+        <div class="charts-container">
+          <img style="margin-top: -15px;" src="./images/sales_graph.png">
+          <img style="margin-top: -15px; max-height: 200px; margin-left: 20px;" src="./images/sales_goal.png">
         </div>
       </div>
     </div>
@@ -107,8 +134,11 @@
      { imageSrc = $"images/{image}.jpg"; }
 
 
-  /* Logic for switch for graphs
-  */
+    private bool edit = false;
+    private void ToggleEdit()
+    {
+      edit = !edit;
+    }
 
 
 /* Logic for profile dropdown */
@@ -144,8 +174,6 @@
 
       }
     }
-
-
     private bool arch = false;
     private void archive()
     {
@@ -164,12 +192,40 @@
 }
 
 <style>
+.format-container {
+  width: 50%;
+  margin-top: 22px;
+  margin-left: 25px;
+}
+
+.charts-container {
+  margin-top: 30px;
+  width: 600px;
+  height: 260px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 .stats-container {
   margin-top: 30px;
-  margin-left: 15px;
-  max-width: 600px;
+  margin-left: 75px;
+  max-width: 250px;
   width: 600px;
   height: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.details-container {
+  margin-top: 25px;
+  margin-left: 15px;
+  max-width: 450px;
+  width: 600px;
+  height: 682px;
   padding: 30px;
   background-color: #fff;
   border-radius: 10px;
@@ -185,25 +241,23 @@
 }
 
 .left-col {
-  flex: 0 0 40%;
+  flex: 0 0 20%;
   margin-right: 50px;
   margin-top: -50px;
 }
-
 .right-col {
-  margin-top: -50px;
-  flex: 0 0 55%;
+  flex: 0 0 45%;
 }
+
+.middle-col {
+  flex: 0 0 30%;
+  
+}
+
 
 .column {
   flex-basis: 50%;
   padding: 20px;
-}
-
-.format-container {
-  width: 50%;
-  float: left;
-  
 }
 
 .graph-container{
@@ -217,7 +271,7 @@
    height: 250px;
    object-fit: cover;
    object-position: center;
-   margin-left: 15px;
+   margin-left: 75px;
    margin-top: 15px;
 }
 
