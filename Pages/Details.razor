@@ -73,20 +73,26 @@
           @if(edit)
           {
             <label for="name">Name: </label>
-            <input type="name" id="Name" name="Name" required>
+            <input class="form-control" type="name" id="Name" name="Name" required>
             <br>
             <label style="margin-top: 50px;" for="name">Description: </label>
             <br>
-            <textarea type="name" id="Name" name="Name" required style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+            <textarea class="form-control" type="name" id="Name" name="Name" required style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+            <br>
+            <label style="margin-top: 50px;" for="Price">Price: </label>
+            <input class="form-control" type="price" id="Price" name="Price" required>
           }
           @if(!edit)
           {
             <label for="name">Name: </label>
-            <input type="name" id="Name" name="Name" readonly>
+            <input class="form-control" type="name" id="Name" name="Name" readonly>
             <br>
             <label style="margin-top: 50px;" for="name">Description: </label>
             <br>
-            <textarea type="name" id="Name" name="Name" readonly style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+            <textarea class="form-control" type="name" id="Name" name="Name" readonly style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+            <br>
+            <label style="margin-top: 50px;" for="Price">Price: </label>
+            <input class="form-control" type="price" id="Price" name="Price" readonly>
           }
           
         </div>
@@ -98,7 +104,7 @@
           <div class="data-container">
             <h1 style="margin-top: 10px;">Sales</h1>
             <form method="post">
-              <select id="months" name="months"  @onchange="@((e) => changeToSix(e.Value.ToString()))">
+              <select class="form-control-drop" id="months" name="months"  @onchange="@((e) => changeToSix(e.Value.ToString()))">
                 <option value="6-mo">6 mo</option>
                 <option value="12-mo">12 mo</option>
                 <option value="Week">Week</option>
@@ -192,6 +198,28 @@
 }
 
 <style>
+.form-control-drop {
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid #ccc;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+    }
+
+
+.form-control {
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid #ccc;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+    }
+
+
 .format-container {
   width: 50%;
   margin-top: 22px;
@@ -261,7 +289,7 @@
 }
 
 .graph-container{
-  margin-top: 30px;
+  margin-top: 0px;
   margin-left: auto;
   
 }
