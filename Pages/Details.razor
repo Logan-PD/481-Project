@@ -6,77 +6,98 @@
 
 <div class="main-container">
 
-    <div class= "left-nav">
-        <button title="Add a new collection" class="back-button"></button>
-    </div>
+  <div class= "left-nav">
+    <NavLink href="HomePage">
+      <button title="Add a new collection" class="back-button"></button>
+    </NavLink>
+  </div>
 
-    <div class="top-nav">
-
-        <div class="top-panel">
-        <button class="top-button" @onclick="archive">Remove</button>
-        <button class="top-button" @onclick="ToggleCheckboxes">Compare...</button>
-        <div class="profileDropdown">
-
-            <div class="profile" @onclick="menuToggle">
-                 <img src="./images/alice.png" />
-            </div>
-
-            <div class="menu @menuClass">
-              <h3>Alice Smith</h3>
-                <ul>
-                    <li><img src="./images/help.svg" /><a href="Help">Help</a></li>
-                     <li><img src="./images/logout.png" /><a href="Login">Logout</a> </li>
-                 </ul>
-            </div>
+  <div class="top-nav">
+    <div class="top-panel">
+      <button class="top-button" @onclick="archive">Remove</button>
+      <button class="top-button" @onclick="ToggleCheckboxes">Compare...</button>
+      <button class="top-button">Edit</button>
+      <div class="profileDropdown">
+        <div class="profile" @onclick="menuToggle">
+          <img src="./images/alice.png" />
+        </div>
+        <div class="menu @menuClass">
+          <h3>Alice Smith</h3>
+          <ul>
+            <li><img src="./images/help.svg" /><a href="Help">Help</a></li>
+            <li><img src="./images/logout.png" /><a href="Login">Logout</a> </li>
+          </ul>
         </div>
       </div>
-        <div class="main-content">
-
-              @if(arch)
-              {
-                <div class="archive-pop">
-                  <h1 class="mb-4">Are you sure you want to archive @image?</h1>
-                  <button @onclick="archive">Cancel</button>
-                  <NavLink href="HomePage">
-                    <button>Confirm</button>
-                  </NavLink>
-                </div> 
-              }
-
-
-          <h1> Image Details </h1>
-          <h2 style="font-size: 20px;"> This is the description of the graph and stuff blah blah blah </h2>
-
-          <div class="format-container">
-
-            <img class="content-image" src="@imageSrc" alt="">
-              <div class="data-container">
-                <h1 style="margin-top: 10px;">Sales</h1>
-                <form method="post">
-                  <select id="months" name="months"  @onchange="@((e) => changeToSix(e.Value.ToString()))">
-                    <option value="6-mo">6 mo</option>
-                    <option value="12-mo">12 mo</option>
-                    <option value="Week">Week</option>
-                    <option value="All-time">All Time</option>
-                  </select>
-                </form>
-                <div class="graph-container">
-                  @if(sixmo)
-                  {
-                    <img src="./images/test_graph.png">
-                  }
-                  @if(twmo)
-                  {
-                    <img src="./images/12mo_graph.png">
-                  }
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
     </div>
 
+    <div class="main-content">
+      @if(arch)
+      {
+        <div class="archive-pop">
+          <h1 class="mb-4">Are you sure you want to archive @image?</h1>
+          <button class="top-button" @onclick="archive">Cancel</button>
+          <NavLink href="HomePage">
+            <button class="top-button">Confirm</button>
+          </NavLink>
+        </div> 
+      }
+      <div class="left-col">
+        <h1> <em>@image</em> details </h1>
+        <img class="content-image" src="@imageSrc" alt="">
+        <div class="stats-container">
+          <div style="display: flex; align-items: center;">
+            <img src="https://api.iconify.design/ic/twotone-sell.svg?color=%233d348b" width="50px" style="margin-right: 10px;">
+            <span>$80</span>
+          </div>
+          <span>Price</span>
+          <div style="display: flex; align-items: center; margin-top: 20px;">
+            <img src="https://api.iconify.design/game-icons/coins.svg?color=%233d348b" width="50px" style="margin-right: 10px;">
+            <span>$860.85</span>
+          </div>
+          <span>Profit</span>
+          <div style="display: flex; align-items: center; margin-top: 20px;">
+            <img src="https://api.iconify.design/mdi/graph-line.svg?color=red" width="50px" style="margin-right: 10px;">
+            <span>-51%</span>
+          </div>
+          <span>Last Month Sales</span>
+          <div style="display: flex; align-items: center; margin-top: 20px;">
+            <img src="https://api.iconify.design/material-symbols/shopping-cart-outline-sharp.svg?color=%233d348b" width="50px" style="margin-right: 10px;">
+            <span>1000</span>
+          </div>
+          <span>Total Units Sold</span>
+        </div>
+      </div>
+
+      <div class="right-col">
+        <h1>Right side</h1>
+        <div class="format-container">
+          <div class="data-container">
+            <h1 style="margin-top: 10px;">Sales</h1>
+            <form method="post">
+              <select id="months" name="months"  @onchange="@((e) => changeToSix(e.Value.ToString()))">
+                <option value="6-mo">6 mo</option>
+                <option value="12-mo">12 mo</option>
+                <option value="Week">Week</option>
+                <option value="All-time">All Time</option>
+              </select>
+            </form>
+        <div class="graph-container">
+          @if(sixmo)
+          {
+            <img src="./images/test_graph.png">
+          }
+          @if(twmo)
+          {
+            <img src="./images/12mo_graph.png">
+          }
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div> 
+</div> 
 
 @code {
     [Parameter] 
@@ -100,7 +121,7 @@
         showMenu = !showMenu;
     }
 
-    private bool sixmo = false;
+    private bool sixmo = true;
     private bool twmo = false;
     private void changeToSix(string value)
     {
@@ -142,20 +163,47 @@
     }
 }
 
-
 <style>
+.stats-container {
+  margin-top: 30px;
+  margin-left: 15px;
+  max-width: 600px;
+  width: 600px;
+  height: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 
 .main-content{
-    width: 100%;
-    margin-top: 50px;
     display: flex;
-    flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-col {
+  flex: 0 0 40%;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+.right-col {
+  margin-top: -50px;
+  flex: 0 0 55%;
+}
+
+.column {
+  flex-basis: 50%;
+  padding: 20px;
 }
 
 .format-container {
-  display: flex;
-  flex-dirction: row;
-  align-items: center;
+  width: 50%;
+  float: left;
+  
 }
 
 .graph-container{
@@ -177,8 +225,6 @@
   max-width: 600px;
   width: 600px;
   height: 400px;
-  margin-top: 50px;
-  margin-left: 220px;
   padding: 30px;
   background-color: #fff;
   border-radius: 10px;
@@ -190,7 +236,7 @@
   z-index: 9999;
   max-width: 600px;
   width: 600px;
-  height: 400px;
+  height: 300px;
   margin-top: 50px;
   margin-left: 550px;
   padding: 30px;
