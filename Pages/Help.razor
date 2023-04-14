@@ -7,12 +7,12 @@
 
 <div class="header">
   <a href="Homepage" class="logo">
-      <img src="/images/logo.png" alt="Logo" class="img-fluid">
+      <img src="/images/logo.png" alt="" class="img-fluid">
       SnappShot 
   </a>
   <div class="header-right">
     <a class="active" href="Help">Help</a>
-    <a href="#Login">Login</a>
+    <a href="Login">Logout</a>
   </div>
 </div>
 
@@ -21,34 +21,76 @@
 <div class="parent-container">
   <ul class="faq">
     <li class="@Active1">
-      <h3 class="question" @onclick="() => Toggle(1)">Frequently Asked Question? 
+      <h3 class="question" @onclick="() => Toggle(1)">How do I Login? 
         <div class="@PlusMinus1" ></div>
       </h3>
-      <div class="answer">Answer. Donec vitae tellus risus. Aenean sed fermentum risus. Phasellus venenatis 
-        ultricies dignissim. Nunc ante lectus, accumsan non porta at. Donec vitae tellus risus. Aenean sed 
-        fermentum risus. Phasellus venenatis ultricies dignissim.</div>
+      <div class="answer">Fill in your username and password in the respective box. Once that is filled, you can click on
+        the <i>Login</i> button to go to the homepage.
+      </div>
     </li>
     <li class="@Active2">
-      <h3 class="question" @onclick="() => Toggle(2)">Frequently Asked Question? 
+      <h3 class="question" @onclick="() => Toggle(2)">How do I Register an Account? 
         <div class="@PlusMinus2" ></div>
       </h3>
-      <div class="answer">Answer. Donec vitae tellus risus. Aenean sed fermentum risus. Phasellus venenatis 
-        ultricies dignissim. Nunc ante lectus, accumsan non porta at. Donec vitae tellus risus. Aenean sed 
-        fermentum risus. Phasellus venenatis ultricies dignissim.</div>
+      <div class="answer">If you need to register an account, click on the <i>Create Account</i> button. Once you do,
+          fill in your e-mail address, along with the username and passowrd. Once this is done, click on the <i>Create Account</i>
+        button and you are ready to login.
+      </div>
+    </li>
+    <li class="@Active3">
+      <h3 class="question" @onclick="() => Toggle(3)">How do I Upload a Photo or a Collection? 
+        <div class="@PlusMinus3" ></div>
+      </h3>
+      <div class="answer">Once you're in the homepage, click on the <i>Upload</i> button if you want to upload
+        a photo. If you want to upload a collection click on the "+" button in the top-left. You will then be
+          taken to the upload page. There, you can select a photo or a set of photos to upload to the database.
+        Once the upload is complete, click the <i>Continue</i> button, and you will be redirected to our homepage once again,
+         with your photos ready to be viewed.
+        </div>
+    </li>
+    <li class="@Active4">
+      <h3 class="question" @onclick="() => Toggle(4)">How do I Compare my Photos?
+        <div class="@PlusMinus4" ></div>
+      </h3>
+      <div class="answer">Click on the <i>Compare...</i> button found at the top bar of the homepage. From here, you must
+          select the two photos you wish to compare. Hover your cursor over one of the photos you want to compare, and click
+          on the box next to the <i>Add to compare</i> text. Do this for the other photo as well, and click on the <i>Compare Selected</i>
+        button. You will then see the sales comparison between the two photos.
+      </div>
+    </li>
+    <li class="@Active5">
+      <h3 class="question" @onclick="() => Toggle(5)">How do I view my photos' information in detail?
+        <div class="@PlusMinus5" ></div>
+      </h3>
+      <div class="answer">On the homepage, hover your cursor over your photo. There, you'll see a quick summary of your sales from the
+          past day, week, and month. By clicking on the <i>Expand Details</i> button, you'll see an in-depth view of the photo's information.
+          From here, you can see things such as trends of your sales and your profits, and you can edit of that information about your photo,
+          such as its price and title.
+      </div>
     </li>
   </ul>
 </div>
 
 <footer>
   <p>Team Unlucky Charm</p>
-  <p>Name: ID</p>
+  <p>Daniel Chau: 10162889</p>
+  <p>Yiannis Hontzias: 30066528</p>
+  <p>Nicholas McLaughlin: 30052071</p>
+  <p>Kenny Vo: 30065390</p>
+  <p>Logan Perry-Din: 30070661</p>
 </footer> 
 
 @functions {
     string Active1 { get; set; }
     string Active2 { get; set; }
+    string Active3 { get; set; }
+    string Active4 { get; set; }
+    string Active5 { get; set; }
     string PlusMinus1 { get; set; }
     string PlusMinus2 { get; set; }
+    string PlusMinus3 { get; set; }
+    string PlusMinus4 { get; set; }
+    string PlusMinus5 { get; set; }
 }
 
 
@@ -56,8 +98,14 @@
     protected override void OnInitialized() {
         Active1 = " ";
         Active2 = " ";
+        Active3 = " ";
+        Active4 = " ";
+        Active5 = " ";
         PlusMinus1 = "plus-minus-toggle collapsed";
         PlusMinus2 = "plus-minus-toggle collapsed";
+        PlusMinus3 = "plus-minus-toggle collapsed";
+        PlusMinus4 = "plus-minus-toggle collapsed";
+        PlusMinus5 = "plus-minus-toggle collapsed";
     }
     private async Task Toggle(int a) {
         switch (a) {
@@ -83,6 +131,42 @@
                     PlusMinus2 = "plus-minus-toggle";
                 } else {
                     PlusMinus2 = "plus-minus-toggle collapsed";
+                }
+                break;
+            case 3:
+                if (String.Equals(Active3, " ")) {
+                    Active3 = "active";
+                } else {
+                    Active3 = " ";
+                }
+                if (String.Equals(PlusMinus3, "plus-minus-toggle collapsed")) {
+                    PlusMinus3 = "plus-minus-toggle";
+                } else {
+                    PlusMinus3 = "plus-minus-toggle collapsed";
+                }
+                break;
+            case 4:
+                if (String.Equals(Active4, " ")) {
+                    Active4 = "active";
+                } else {
+                    Active4 = " ";
+                }
+                if (String.Equals(PlusMinus4, "plus-minus-toggle collapsed")) {
+                    PlusMinus4 = "plus-minus-toggle";
+                } else {
+                    PlusMinus4 = "plus-minus-toggle collapsed";
+                }
+                break;
+            case 5:
+                if (String.Equals(Active5, " ")) {
+                    Active5 = "active";
+                } else {
+                    Active5 = " ";
+                }
+                if (String.Equals(PlusMinus5, "plus-minus-toggle collapsed")) {
+                    PlusMinus5 = "plus-minus-toggle";
+                } else {
+                    PlusMinus5 = "plus-minus-toggle collapsed";
                 }
                 break;
         }

@@ -60,12 +60,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Documents/GitHub/481-Project/Pages/MainpageCompare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2VDb21wYXJlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Documents/GitHub/481-Project/Pages/Mountains.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW91bnRhaW5zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Documents/GitHub/481-Project/Pages/MountainsCompare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW91bnRhaW5zQ29tcGFyZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Documents/GitHub/481-Project/Pages/Newyork.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9yay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/NewyorkCompare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9ya0NvbXBhcmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Documents/GitHub/481-Project/Pages/UploadPage.razor]
