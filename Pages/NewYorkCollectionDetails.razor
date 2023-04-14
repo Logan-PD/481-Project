@@ -1,8 +1,4 @@
-@page "/Details/{image}"
-
-
-<!-- <img src=@imageSrc alt=""> -->
-
+@page "/NewYorkCollectionDetails"
 
 <div class="main-container">
 
@@ -34,7 +30,7 @@
       @if(arch)
       {
         <div class="archive-pop">
-          <h1 class="mb-4">Are you sure you want to archive @image?</h1>
+          <h1 class="mb-4">Are you sure you want to archive <em>New York</em>?</h1>
           <button class="top-button" @onclick="archive">Cancel</button>
           <NavLink href="HomePage">
             <button class="top-button">Confirm</button>
@@ -42,27 +38,27 @@
         </div> 
       }
       <div class="left-col">
-        <h1 style="margin-left: 15px;"> <em>@image</em> details </h1>
-        <img class="content-image" src="@imageSrc" alt="">
+        <h1 style="margin-left: 15px;"> <em>New York</em> details </h1>
+        <img class="content-image" src="https://api.iconify.design/material-symbols/folder-open-outline.svg?color=%233d348b" alt="">
         <div class="stats-container">
           <div style="display: flex; align-items: center;">
             <img src="https://api.iconify.design/ic/twotone-sell.svg?color=%233d348b" width="50px" style="margin-right: 10px;">
-            <span>$80</span>
+            <span>$120.99</span>
           </div>
           <span>Price</span>
           <div style="display: flex; align-items: center; margin-top: 20px;">
             <img src="https://api.iconify.design/game-icons/coins.svg?color=%233d348b" width="50px" style="margin-right: 10px;">
-            <span>$860.85</span>
+            <span>$265.99</span>
           </div>
           <span>Profit</span>
           <div style="display: flex; align-items: center; margin-top: 20px;">
-            <img src="https://api.iconify.design/mdi/graph-line.svg?color=red" width="50px" style="margin-right: 10px;">
-            <span>-51%</span>
+            <img src="https://api.iconify.design/mdi/graph-line.svg?color=green" width="50px" style="margin-right: 10px;">
+            <span>+32%</span>
           </div>
           <span>Last Month Sales</span>
           <div style="display: flex; align-items: center; margin-top: 20px;">
             <img src="https://api.iconify.design/material-symbols/shopping-cart-outline-sharp.svg?color=%233d348b" width="50px" style="margin-right: 10px;">
-            <span>1000</span>
+            <span>21</span>
           </div>
           <span>Total Units Sold</span>
         </div>
@@ -117,17 +113,27 @@
         <div class="graph-container">
           @if(sixmo)
           {
-            <img style="margin-left: 20px;" src="./images/test_graph.png">
+            <img style="margin-left: -15px; margin-top: 40px; max-width: 580px;" src="./images/ny_6mo.png">
           }
           @if(twmo)
           {
-            <img style="margin-left: 35px;" src="./images/12mo_graph.png">
+            <img style="margin-left: -15px; max-width: 580px;" src="./images/ny_12mo.png">
+          }
+          @if(weekly)
+          {
+            <img style="margin-left: -15px; max-width: 580px; margin-top: 70px" src="./images/ny_weekly.png">
+          }
+          @if(alltime)
+          {
+            <img style="margin-left: -15px; max-width: 580px; margin-top: 30px" src="./images/ny_alltime.png">
           }
         </div>
         </div>
         <div class="charts-container">
-          <img style="margin-top: -15px;" src="./images/sales_graph.png">
-          <img style="margin-top: -15px; max-height: 200px; margin-left: 20px;" src="./images/sales_goal.png">
+          <img style=" max-width: 200px" src="./images/central-park.png">
+          <img style="margin-left: 250px; margin-top: -140px; max-height: 150px; " src="./images/madison.jpg">
+          <label>Top Selling</label>
+          <Label style="margin-left: 170px; ">Worst Selling</label>
         </div>
       </div>
     </div>
@@ -162,25 +168,37 @@
 
     private bool sixmo = true;
     private bool twmo = false;
+    private bool weekly = false;
+    private bool alltime = false;
     private void changeToSix(string value)
     {
       if(value == "6-mo")
       {
         sixmo = true;
         twmo = false;
+        weekly = false;
+        alltime = false;
       }
       if(value == "12-mo")
       {
         sixmo = false;
         twmo = true;
+        weekly = false;
+        alltime = false;
       }
       if(value == "Week")
       {
-
+        sixmo = false;
+        twmo = false;
+        weekly = true;
+        alltime = false;
       }
       if(value == "All-time")
       {
-
+        sixmo = false;
+        twmo = false;
+        weekly = false;
+        alltime = true;
       }
     }
     private bool arch = false;
