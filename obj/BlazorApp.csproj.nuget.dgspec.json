@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\BlazorApp.csproj": {}
+    "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\BlazorApp.csproj": {
+    "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\BlazorApp.csproj",
+        "projectUniqueName": "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\BlazorApp.csproj",
-        "packagesPath": "C:\\Users\\Daniel Chau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\",
+        "projectPath": "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj",
+        "packagesPath": "/home/lipd/.nuget/packages/",
+        "outputPath": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniel Chau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lipd/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

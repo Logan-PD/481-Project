@@ -59,9 +59,7 @@
                <h1>COMPARE PHOTOS</h1>
                <hr>
                <h3>Select 2 photos to compare</h3>
-               <NavLink href="Compare">
-                <button class="top-button">Compare Selected</button>
-               </NavLink>
+                <button @onclick="() => ComparePhotos()" class="top-button">Compare Selected</button>
                <button class="top-button" @onclick="ToggleCheckboxes">Cancel</button>
            </div>
             }
@@ -175,7 +173,7 @@
         }
         else if (FolderItems.Any(x => x.IsCurrent && x.Text == "Main")){
             if(showCheckboxes){
-               <MainpageCompare />
+               <MainpageCompare @ref=mainpagecompare/>
           }else{
                 <Mainpage />
           }
@@ -319,8 +317,32 @@
 
 </div>
 
-
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager navigationManager;
 @code {
+    //public bool sports_car_compare = false;
+    public MainpageCompare mainpagecompare = new MainpageCompare();
+    public string image1;
+    public string image2;
+    private void ComparePhotos() {
+
+    if (mainpagecompare.sports_car_compare) {
+      if (image1 == null) image1 = "sports-car";
+      else image2 = "sports-car";
+    }
+    if (mainpagecompare.forest_compare) {
+      if (image1 == null) image1 = "forest";
+      else image2 ="forest";
+    }
+    if (mainpagecompare.sunflower_compare) {
+      if (image1 == null) image1 = "sunflower";
+      else image2="sunflower";
+    }
+
+
+    navigationManager.NavigateTo($"/Compare/{image1}/{image2}");
+  }
+
     bool showBox1 = true;
             bool showBox2 = true;
             bool showBox3 = true;

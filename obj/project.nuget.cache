@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pDzrSO/AS2yLhQmiTCxpulT5ChhK1RjmARgX0NarUhgsk4cOFI3+e6EenfYJAIOIpAPLcQv7DDJBclDevF66rg==",
+  "dgSpecHash": "FgToCNEkqzccs9PsYUhf1DC9E648x2p2g3I+699rqBZpmipNTRjK3nJq/1DGHJKohRKhGoKTaR+Chfa4bhFTjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\BlazorApp.csproj",
+  "projectFilePath": "/home/lipd/Desktop/481/project_code/BlazorApp/BlazorApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

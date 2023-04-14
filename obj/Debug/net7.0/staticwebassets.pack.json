@@ -1,199 +1,215 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "PackagePath": "staticwebassets\\css\\open-iconic"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-      "PackagePath": "staticwebassets\\css\\open-iconic"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\README.md",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\alice.png",
-      "PackagePath": "staticwebassets\\images\\alice.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/12mo_graph.png",
+      "PackagePath": "staticwebassets/images/12mo_graph.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\background.jpg",
-      "PackagePath": "staticwebassets\\images\\background.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/alice.png",
+      "PackagePath": "staticwebassets/images/alice.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\cafe.jpg",
-      "PackagePath": "staticwebassets\\images\\cafe.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/background.jpg",
+      "PackagePath": "staticwebassets/images/background.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\capybara.jpg",
-      "PackagePath": "staticwebassets\\images\\capybara.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/cafe.jpg",
+      "PackagePath": "staticwebassets/images/cafe.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\central-park.png",
-      "PackagePath": "staticwebassets\\images\\central-park.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/capybara.jpg",
+      "PackagePath": "staticwebassets/images/capybara.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\doberman.jpg",
-      "PackagePath": "staticwebassets\\images\\doberman.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/central-park.png",
+      "PackagePath": "staticwebassets/images/central-park.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\down.png",
-      "PackagePath": "staticwebassets\\images\\down.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/doberman.jpg",
+      "PackagePath": "staticwebassets/images/doberman.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\everest.jpg",
-      "PackagePath": "staticwebassets\\images\\everest.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/down.png",
+      "PackagePath": "staticwebassets/images/down.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ferarri.jpg",
-      "PackagePath": "staticwebassets\\images\\ferarri.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/everest.jpg",
+      "PackagePath": "staticwebassets/images/everest.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\forest.jpg",
-      "PackagePath": "staticwebassets\\images\\forest.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ferarri.jpg",
+      "PackagePath": "staticwebassets/images/ferarri.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\fuji.jpg",
-      "PackagePath": "staticwebassets\\images\\fuji.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/forest.jpg",
+      "PackagePath": "staticwebassets/images/forest.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ha-ling.jpg",
-      "PackagePath": "staticwebassets\\images\\ha-ling.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/fuji.jpg",
+      "PackagePath": "staticwebassets/images/fuji.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\hara.jpg",
-      "PackagePath": "staticwebassets\\images\\hara.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ha-ling.jpg",
+      "PackagePath": "staticwebassets/images/ha-ling.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\help.svg",
-      "PackagePath": "staticwebassets\\images\\help.svg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/hara.jpg",
+      "PackagePath": "staticwebassets/images/hara.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\hotdog.jpg",
-      "PackagePath": "staticwebassets\\images\\hotdog.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/help.svg",
+      "PackagePath": "staticwebassets/images/help.svg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\lighthouse.jpg",
-      "PackagePath": "staticwebassets\\images\\lighthouse.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/hotdog.jpg",
+      "PackagePath": "staticwebassets/images/hotdog.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/lighthouse.jpg",
+      "PackagePath": "staticwebassets/images/lighthouse.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\logout.png",
-      "PackagePath": "staticwebassets\\images\\logout.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\madison.jpg",
-      "PackagePath": "staticwebassets\\images\\madison.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/logout.png",
+      "PackagePath": "staticwebassets/images/logout.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picnic.jpg",
-      "PackagePath": "staticwebassets\\images\\picnic.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/madison.jpg",
+      "PackagePath": "staticwebassets/images/madison.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\pyteo.jpg",
-      "PackagePath": "staticwebassets\\images\\pyteo.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/picnic.jpg",
+      "PackagePath": "staticwebassets/images/picnic.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\raptors.jpg",
-      "PackagePath": "staticwebassets\\images\\raptors.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/pyteo.jpg",
+      "PackagePath": "staticwebassets/images/pyteo.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\skiing.jpg",
-      "PackagePath": "staticwebassets\\images\\skiing.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/raptors.jpg",
+      "PackagePath": "staticwebassets/images/raptors.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sports-car.jpg",
-      "PackagePath": "staticwebassets\\images\\sports-car.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sales_goal.png",
+      "PackagePath": "staticwebassets/images/sales_goal.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sunflowers.jpg",
-      "PackagePath": "staticwebassets\\images\\sunflowers.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sales_graph.png",
+      "PackagePath": "staticwebassets/images/sales_graph.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sunset.jpg",
-      "PackagePath": "staticwebassets\\images\\sunset.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/skiing.jpg",
+      "PackagePath": "staticwebassets/images/skiing.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sushi.png",
-      "PackagePath": "staticwebassets\\images\\sushi.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sports-car.jpg",
+      "PackagePath": "staticwebassets/images/sports-car.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\times-square.jpg",
-      "PackagePath": "staticwebassets\\images\\times-square.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sunflowers.jpg",
+      "PackagePath": "staticwebassets/images/sunflowers.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\upward.png",
-      "PackagePath": "staticwebassets\\images\\upward.png"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sunset.jpg",
+      "PackagePath": "staticwebassets/images/sunset.jpg"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\waterfall.jpg",
-      "PackagePath": "staticwebassets\\images\\waterfall.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sushi.png",
+      "PackagePath": "staticwebassets/images/sushi.png"
     },
     {
-      "Id": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\whale.jpg",
-      "PackagePath": "staticwebassets\\images\\whale.jpg"
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/test_graph.png",
+      "PackagePath": "staticwebassets/images/test_graph.png"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/times-square.jpg",
+      "PackagePath": "staticwebassets/images/times-square.jpg"
+    },
+    {
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/upward.png",
+      "PackagePath": "staticwebassets/images/upward.png"
+    },
+    {
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/waterfall.jpg",
+      "PackagePath": "staticwebassets/images/waterfall.jpg"
+    },
+    {
+      "Id": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/whale.jpg",
+      "PackagePath": "staticwebassets/images/whale.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorApp.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BlazorApp.props",
       "PackagePath": "build\\BlazorApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlazorApp.props",
       "PackagePath": "buildMultiTargeting\\BlazorApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BlazorApp.props",
       "PackagePath": "buildTransitive\\BlazorApp.props"
     }
   ],

@@ -1,4 +1,27 @@
-@page "/Compare"
+@page "/Compare/{image1}/{image2}"
 
 
-<h1>this is compare page</h1>
+<img src=@image1>
+<img src=@image2>
+
+
+
+@code {
+
+    [Parameter] 
+    public string image1 {get;set;}
+    [Parameter] 
+    public string image2 {get;set;}
+    protected override void OnInitialized() {
+        image1 = $"images/{image1}.jpg"; 
+        image2 = $"images/{image2}.jpg";
+    }
+
+}
+
+<style>
+    img {
+        width: 300px;
+        height: 300px;
+    }
+</style>

@@ -52,7 +52,7 @@
                 <div class="img-text">
                      @if (showCheckboxes){
                      <div>
-                        <input type="checkbox" id="compare" name="compare" >
+                        <input type="checkbox" id="compare" name="compare" @bind=sports_car_compare>
                         <label for="compare">Add to compare</label>
                     </div> 
                     }
@@ -73,7 +73,7 @@
                 <div class="img-text">
                     @if (showCheckboxes){
                      <div>
-                        <input type="checkbox" id="compare" name="compare" >
+                        <input type="checkbox" id="compare" name="compare" @bind=forest_compare>
                         <label for="compare">Add to compare</label>
                     </div> 
                     }
@@ -94,7 +94,7 @@
                    <div class="img-text">
                      @if (showCheckboxes){
                      <div>
-                        <input type="checkbox" id="compare" name="compare" >
+                        <input type="checkbox" id="compare" name="compare" @bind=sunflower_compare >
                         <label for="compare">Add to compare</label>
                     </div> 
                     }
@@ -201,9 +201,13 @@
         </div>
 
 
+@inject NavigationManager navigationManager;
+@code {
 
+    public bool sports_car_compare = false;
+    public bool forest_compare = false;
+    public bool sunflower_compare = false;
 
-        @code {
 
 /* Logic for profile dropdown */
     private bool showMenu = false;
