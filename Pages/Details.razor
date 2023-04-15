@@ -72,14 +72,14 @@
           @if(edit)
           {
             <label for="name">Name: </label>
-            <input class="form-control" type="name" id="Name" name="Name" required>
+            <input class="form-control" type="name" id="Name" name="Name" value=@image required>
             <br>
             <label style="margin-top: 50px;" for="name">Description: </label>
             <br>
-            <textarea class="form-control" type="name" id="Name" name="Name" required style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+            <textarea class="form-control" type="name" id="Name" name="Name" required style="width: 400px; height: 200px; text-align: top;" autofocus>This is the description for the image</textarea>
             <br>
             <label style="margin-top: 50px;" for="Price">Price: </label>
-            <input class="form-control" type="price" id="Price" name="Price" required>
+            <input class="form-control" type="price" id="Price" name="Price" value="80" required>
 
             <button style="margin-left: -2px; margin-top: 40px;" class="top-button" @onclick="ToggleEdit">Save</button>
             <button style="margin-left: -5px; margin-top: -60px;" class="top-button" @onclick="ToggleEdit">Cancel</button>
@@ -88,14 +88,14 @@
           @if(!edit)
           {
             <label for="name">Name: </label>
-            <input class="form-control" type="name" id="Name" name="Name" readonly>
+            <input class="form-control" type="name" id="Name" name="Name" value=@image readonly>
             <br>
             <label style="margin-top: 50px;" for="name">Description: </label>
             <br>
-            <textarea class="form-control" type="name" id="Name" name="Name" readonly style="width: 400px; height: 200px; text-align: top;" autofocus></textarea>
+            <textarea class="form-control" type="name" id="Name" name="Name" readonly style="width: 400px; height: 200px; text-align: top;" autofocus>This is the description for the image</textarea>
             <br>
             <label style="margin-top: 50px;" for="Price">Price: </label>
-            <input class="form-control" type="price" id="Price" name="Price" readonly>
+            <input class="form-control" type="price" id="Price" name="Price" value="80" readonly>
           }
           
         </div>
