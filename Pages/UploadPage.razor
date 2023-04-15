@@ -1,2 +1,402 @@
 @page "/UploadPage"
-Upload Page
+
+<div class="upload-page">
+  <div class="upload-page-content">
+    <div class="upload-page-header">
+      <h2>Upload Collection</h2>
+      <NavLink class="upload-page-close" href="Homepage"> <button class="upload-page-close-button">x</button> </NavLink >
+    </div>
+    <div class="upload-content">
+      @if (images.Count > 0){
+        <div>
+          <img class="upload-image" src="images/@images[currentImage]" alt="">
+        </div>
+      }
+      else {
+        <div class="upload-image empty-image">
+          <img class="upload-icon" src="images/upload.jpg" alt="">
+          <p class="drag-and-drop-text">Drag & drop files or <InputFile OnChange="@addImages" id="browse-link-file-input" class="upload-input" multiple /><label class="browse-file-input-label" for="browse-link-file-input">Browse</label></p>
+          <InputFile OnChange="@addImages" id="browse-button-file-input" class="upload-input" multiple />
+          <label class="browse-label" for="browse-button-file-input">Browse</label>
+          <p class="supported-formats">Supported formats: JPEG and PNG</p>
+        </div>
+      }
+      <div class="upload-details-container">
+        <div class="upload-details"> 
+          <label for="upload-title">Collection Title</label>
+          <input type="text" class="upload-detail" id="upload-title" name="upload-title" @oninput="updateTitle">
+        </div>
+        <div class="upload-details"> 
+          <label for="upload-description">Collection Description</label>
+          <textarea class="upload-detail upload-description" @oninput="updateDescription"></textarea>
+        </div>
+        <div class="upload-details"> 
+          <label for="upload-price">Collection Price</label>
+          <input type="number" step='0.01' class="upload-detail" id="upload-price" name="upload-price" @oninput="updatePrice">
+        </div>
+      </div>
+    </div>
+    <div class="upload-status-container">
+      <p>Uploading - @images.Count pictures</p>
+      <div class="upload-status-bars-container">
+      @if (images.Count > 0){
+        var i = 0;
+        while (i < @images.Count) {
+          var j = i;
+          <div class="upload-status">
+            <button class="upload-status-bar" @onclick="() => setCurrentImage(j)" style="animation-duration: @(i*2+7)s">
+              <div class="upload-status-bar-top">
+                @images[i]
+                <button class="upload-status-bar-delete" @onclick="() => removeImage(j)">x</button>
+              </div>
+              <div class="upload-status-bar-bottom" style="animation-duration: @(i*2+7)s"></div>
+            </button>
+            <NavLink class="additional-info-button-link" href="AdditionalInfo?image=sunflowers.jpg"> <button class="additional-info-button">Add info</button> </NavLink >
+          </div>
+          i += 1;
+        }
+      }
+      </div>
+    </div>
+    @if (images.Count > 0){
+      <button class="continue-button" style= "animation-duration: @(images.Count*2+7)s" @onclick="goToCollection">CONTINUE</button>
+    }
+    else {
+      <button class="continue-button" style= "background-color: grey; pointer-events: none;">CONTINUE</button>
+    }
+  </div>
+</div>
+
+@using Microsoft.AspNetCore.WebUtilities
+@using System.Net.Http;
+@using Microsoft.AspNetCore.Components.Forms;
+@inject NavigationManager navigationManager;
+@code {
+  List<string> images = new List<string> {};
+  private int currentImage = 0;
+
+  string collectionTitle = "";
+  string collectionDesrciption = "a";
+  float collectionPrice;
+
+  private void removeImage(int index) {
+    images.RemoveAt(index);
+  }
+
+  private void setCurrentImage(int index) {
+    currentImage = index;
+  }
+
+  private void updateTitle(ChangeEventArgs e) {
+    collectionTitle = (string)e.Value;
+  }
+
+  private void updateDescription(ChangeEventArgs e) {
+    collectionDesrciption = (string)e.Value;
+  }
+
+  private void updatePrice(ChangeEventArgs e) {
+    collectionPrice = float.Parse((string) e.Value);
+  }
+
+  private int numAllowedFiles = 1000;
+
+  private void addImages(InputFileChangeEventArgs e)
+    {
+      images.Clear();
+        foreach (var file in e.GetMultipleFiles(numAllowedFiles))
+        {
+            try
+            {
+                images.Add(file.Name);
+            }
+            catch (Exception exception)
+            {
+                Console.Write(exception);
+            }
+        }
+    }
+
+  private void goToCollection(){
+    navigationManager.NavigateTo($"/Homepage?title=" + collectionTitle);
+  }
+}
+
+<style>
+  .upload-page {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+    width: 100vw;
+  }
+
+  .upload-page-content {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .upload-page-header {
+    display: grid;
+    grid-template-columns: 1fr repeat(1, auto) 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
+    width: 100%;
+  }
+
+  h2 {
+    grid-column-start: 2;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 30px 0;
+  }
+
+  .upload-page-close {
+    align-self: center;
+    margin-left: auto;
+    text-decoration: none;
+  }
+
+  .upload-page-close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #D9D9D9;
+    background-color: #3D348B;
+    opacity: 70%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  .upload-content {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 300px;
+    gap: 30px;
+  }
+
+  .upload-image {
+    height: 300px;
+    width: 300px;
+  }
+
+  .image-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .image-toggle > button {
+    border-radius: 40%;
+  }
+
+  .upload-icon {
+    height: 85px;
+    width: 85px;
+    margin-bottom: 20px;
+  }
+
+  .drag-and-drop-text {
+    font-weight: 700;
+  }
+
+  .browse-file-input-label {
+    display: inline;
+    font-size: 12px;
+    color: #3D348B;
+    text-decoration: underline;
+  }
+
+  .upload-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .empty-image {
+    border: 1px dotted black;
+    background-color: #E0E2DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+
+  .empty-image p {
+    font-size: 12px;
+  }
+
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .browse-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 6px;
+    color: white;
+    background-color: #3D348B;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px 0 30px;
+  }
+
+  .supported-formats {
+    color: #676767;
+  }
+
+  .upload-details-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .upload-detail {
+    width: 300px;
+    height: 50px;
+    background-color: #E0E2DB;
+    border: 0px solid #E0E2DB;
+    padding-bottom: 20px;
+  }
+
+  .upload-description {
+    height: 75px;
+  }
+
+  .upload-status-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 630px;
+    min-height: 80px;
+    max-height: 300px;
+  }
+
+  .upload-status-container p {
+    color: #676767;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .upload-status-bars-container {
+    overflow-y: scroll;
+    max-height: 15vh;
+  }
+
+  @@keyframes status-bar {
+    0%    {width: 0%; background-color: #3D348B;}
+    30%  {background-color: #3D348B;}
+    100%  {width: 100%; background-color: #11AF22;}
+  }
+
+  @@keyframes status-box {
+    0%    {background-color: #D9D9D9;}
+    100%  {background-color: rgb(17, 175, 34, 0.1);}
+  }
+
+  .upload-status {
+    display: flex;
+    margin-bottom: 3px;
+  }
+
+  .upload-status-bar {
+    display: inline-block;
+    border: 1px solid black;
+    width: 450px;
+    animation-name: status-box;
+    background-color: rgb(17, 175, 34, 0.1);
+    margin-bottom: 2px;
+    color: black;
+    height: 40px;
+    padding: 0px;
+  }
+
+  .upload-status-bar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 31px;
+    padding: 0 4px;
+  }
+
+  .upload-status-bar-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+
+
+  .upload-status-bar-bottom {
+    height: 6px;
+    position: relative;
+    background-color: #11AF22;
+    animation-name: status-bar;
+  }
+
+  button {
+    background-color: #3D348B;
+    color: white;
+  }
+
+  .additional-info-button-link {
+    margin: 0 auto;
+    padding-top: 3px;
+  }
+
+  .additional-info-button {
+    border-radius: 20px;
+    font-size: 12px;
+    height: 30px;
+    width: 80px;
+  }
+
+  @@keyframes continue-btn {
+    0%    {pointer-events: none; background-color: grey;}
+    90%   {pointer-events: none; background-color: grey;}
+    100%  {pointer-events: all; background-color: #3D348B;}
+  }
+
+  .continue-button {
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    animation-name: continue-btn;
+    pointer-events: all;
+  }
+
+  @@media only screen and (min-height: 700px) {
+    .upload-page-content {
+      margin-top: 4vh;
+    }
+
+    .upload-status-bars-container {
+      max-height: 20vh;
+    }
+  }
+
+</style>
