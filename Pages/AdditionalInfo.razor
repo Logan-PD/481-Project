@@ -1,4 +1,4 @@
-@page "/AdditionalInfo"
+@page "/AdditionalInfo/{imagename?}"
 
 <div class="upload-page">
   <div class="upload-page-content">
@@ -8,7 +8,7 @@
     </div>
     <div class="upload-content">
       <div>
-        <img class="upload-image" src="images/@image" alt="">
+        <img class="upload-image" src="images/@Imagename" alt="">
       </div>
       <div class="upload-details-container">
         <div class="upload-details"> 
@@ -30,7 +30,7 @@
       <div class="upload-status">
         <button class="upload-status-bar">
           <div class="upload-status-bar-top">
-            @image
+            @Imagename
           </div>
         </button>
       </div>
@@ -45,6 +45,13 @@
 @using Microsoft.AspNetCore.WebUtilities
 @inject NavigationManager navigationManager;
 @code {
+  [Parameter]
+    public string? Imagename { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Imagename = Imagename ?? "";
+    }
 
   string image = "street2.jpg";
 
