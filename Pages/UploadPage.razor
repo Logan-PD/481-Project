@@ -51,7 +51,7 @@
               </div>
               <div class="upload-status-bar-bottom" style="animation-duration: @(i*2+7)s"></div>
             </button>
-            <NavLink class="additional-info-button-link" href="AdditionalInfo?image=sunflowers.jpg"> <button class="additional-info-button">Add info</button> </NavLink >
+            <NavLink class="additional-info-button-link" href="AdditionalInfo?image=street1.jpg"> <button class="additional-info-button">Add info</button> </NavLink >
           </div>
           i += 1;
         }
@@ -118,7 +118,7 @@
     }
 
   private void goToCollection(){
-    navigationManager.NavigateTo($"/Homepage?title=" + collectionTitle);
+    navigationManager.NavigateTo($"/UploadHomepage" );
   }
 }
 

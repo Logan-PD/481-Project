@@ -9,101 +9,133 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-build_property.ProjectDir = /home/lipd/Desktop/481/project_code/BlazorApp/
+build_property.ProjectDir = C:\Users\Daniel Chau\Desktop\481-Project\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/lipd/Desktop/481/project_code/BlazorApp
+build_property.MSBuildProjectDirectory = C:\Users\Daniel Chau\Desktop\481-Project
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/App.razor]
+[C:/Users/Daniel Chau/Desktop/481-Project/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Archive.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXJjaGl2ZS5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/AdditionalInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaXRpb25hbEluZm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Compare.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcGFyZS5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/AdditionalInfo2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaXRpb25hbEluZm8yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Archive.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJjaGl2ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Details.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlscy5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Compare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Help.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSGVscC5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/CompareCollections.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZUNvbGxlY3Rpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Homepage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZXBhZ2UucmF6b3I=
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/LogansPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nYW5zUGFnZS5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Help.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVscC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Homepage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Mainpage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFpbnBhZ2UucmF6b3I=
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/MainpageCompare.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFpbnBhZ2VDb21wYXJlLnJhem9y
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/LogansPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nYW5zUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Mountains.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW91bnRhaW5zLnJhem9y
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/MountainsCompare.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW91bnRhaW5zQ29tcGFyZS5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Mainpage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/Newyork.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3eW9yay5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Mainpage2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2UyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/NewYorkCollectionDetails.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3WW9ya0NvbGxlY3Rpb25EZXRhaWxzLnJhem9y
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/MainpageCompare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2VDb21wYXJlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/NewyorkCompare.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3eW9ya0NvbXBhcmUucmF6b3I=
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Mountains.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW91bnRhaW5zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/UploadPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkUGFnZS5yYXpvcg==
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/MountainsCompare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW91bnRhaW5zQ29tcGFyZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/YiannisPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvWWlhbm5pc1BhZ2UucmF6b3I=
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Newyork.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9yay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/_Imports.razor]
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/NewYorkCollectionDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3WW9ya0NvbGxlY3Rpb25EZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/NewyorkCompare.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9ya0NvbXBhcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Street.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RyZWV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/UploadHomepage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkSG9tZXBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/UploadHomepage2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkSG9tZXBhZ2UyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/UploadPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/UploadSingle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkU2luZ2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/YiannisPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWWlhbm5pc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Daniel Chau/Desktop/481-Project/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-3ij3p7wwc4
+[C:/Users/Daniel Chau/Desktop/481-Project/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-wk4bcz64v1
+[C:/Users/Daniel Chau/Desktop/481-Project/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl
 
-[/home/lipd/Desktop/481/project_code/BlazorApp/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/Daniel Chau/Desktop/481-Project/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

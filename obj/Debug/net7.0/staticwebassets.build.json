@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U1jGzX0aCx1j4QsrnEoWQx/lwOfjjT3IRalx1R9dgyA=",
+  "Hash": "HArYqcwfdb4hL8TK29sNWKD0OasJXIskXFJcWhXYovw=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorApp/wwwroot",
+      "Name": "BlazorApp\\wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/bundle/BlazorApp.styles.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/bundle/BlazorApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/lipd/Desktop/481/project_code/BlazorApp/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/open-iconic/README.md",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\css\\site.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\favicon.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/12mo_graph.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\12mo_graph.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/12mo_graph.png",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/12mo_graph.png"
+      "OriginalItemSpec": "wwwroot\\images\\12mo_graph.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/alice.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\alice.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/alice.png",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/alice.png"
+      "OriginalItemSpec": "wwwroot\\images\\alice.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/background.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\background.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/background.jpg",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/background.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/cafe.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\cafe.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/cafe.jpg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/cafe.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\cafe.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/capybara.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\capybara.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/capybara.jpg",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/capybara.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\capybara.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/central-park.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\central-park.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/central-park.png",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/central-park.png"
+      "OriginalItemSpec": "wwwroot\\images\\central-park.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/doberman.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\doberman.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/doberman.jpg",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/doberman.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\doberman.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/down.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\down.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/down.png",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/down.png"
+      "OriginalItemSpec": "wwwroot\\images\\down.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/everest.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\everest.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/everest.jpg",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/everest.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\everest.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ferarri.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ferarri.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ferarri.jpg",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ferarri.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\ferarri.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/forest.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\forest.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/forest.jpg",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/forest.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\forest.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/fuji.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\fuji.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/fuji.jpg",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/fuji.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\fuji.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ha-ling.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ha-ling.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ha-ling.jpg",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ha-ling.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\ha-ling.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/hara.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\hara.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/hara.jpg",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/hara.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\hara.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/help.svg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\help.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/help.svg",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/help.svg"
+      "OriginalItemSpec": "wwwroot\\images\\help.svg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/hotdog.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\hotdog.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/hotdog.jpg",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/hotdog.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\hotdog.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/lighthouse.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\lighthouse.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/lighthouse.jpg",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/lighthouse.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\lighthouse.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/logo.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\logo.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/logout.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\logout.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/logout.png",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/logout.png"
+      "OriginalItemSpec": "wwwroot\\images\\logout.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/madison.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\madison.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/madison.jpg",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/madison.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\madison.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ny_12mo.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ny_12mo.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ny_12mo.png",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ny_12mo.png"
+      "OriginalItemSpec": "wwwroot\\images\\ny_12mo.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ny_6mo.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ny_6mo.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ny_6mo.png",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ny_6mo.png"
+      "OriginalItemSpec": "wwwroot\\images\\ny_6mo.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ny_alltime.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ny_alltime.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ny_alltime.png",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ny_alltime.png"
+      "OriginalItemSpec": "wwwroot\\images\\ny_alltime.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ny_sales_permonth.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ny_sales_permonth.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ny_sales_permonth.png",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ny_sales_permonth.png"
+      "OriginalItemSpec": "wwwroot\\images\\ny_sales_permonth.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ny_salesgoal.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ny_salesgoal.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ny_salesgoal.png",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ny_salesgoal.png"
+      "OriginalItemSpec": "wwwroot\\images\\ny_salesgoal.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/ny_weekly.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\ny_weekly.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/ny_weekly.png",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ny_weekly.png"
+      "OriginalItemSpec": "wwwroot\\images\\ny_weekly.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/picnic.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\picnic.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/picnic.jpg",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/picnic.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\picnic.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/pyteo.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\pyteo.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/pyteo.jpg",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pyteo.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\pyteo.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/raptors.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\raptors.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/raptors.jpg",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/raptors.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\raptors.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sales_goal.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sales_goal.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sales_goal.png",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sales_goal.png"
+      "OriginalItemSpec": "wwwroot\\images\\sales_goal.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sales_graph.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sales_graph.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sales_graph.png",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sales_graph.png"
+      "OriginalItemSpec": "wwwroot\\images\\sales_graph.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/skiing.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\skiing.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/skiing.jpg",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/skiing.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\skiing.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sports-car.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sports-car.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sports-car.jpg",
       "AssetKind": "All",
@@ -830,13 +830,47 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sports-car.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\sports-car.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sunflowers.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\street1.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/street1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\street1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\street2.jpg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/street2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\street2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sunflowers.jpg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sunflowers.jpg",
       "AssetKind": "All",
@@ -847,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sunflowers.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\sunflowers.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sunset.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sunset.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sunset.jpg",
       "AssetKind": "All",
@@ -864,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sunset.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\sunset.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/sushi.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\sushi.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sushi.png",
       "AssetKind": "All",
@@ -881,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sushi.png"
+      "OriginalItemSpec": "wwwroot\\images\\sushi.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/test_graph.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\test_graph.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/test_graph.png",
       "AssetKind": "All",
@@ -898,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/test_graph.png"
+      "OriginalItemSpec": "wwwroot\\images\\test_graph.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/times-square.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\times-square.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/times-square.jpg",
       "AssetKind": "All",
@@ -915,13 +949,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/times-square.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\times-square.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/upward.png",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\upload.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/upload.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upload.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\upward.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/upward.png",
       "AssetKind": "All",
@@ -932,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/upward.png"
+      "OriginalItemSpec": "wwwroot\\images\\upward.png"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/waterfall.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\waterfall.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/waterfall.jpg",
       "AssetKind": "All",
@@ -949,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/waterfall.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\waterfall.jpg"
     },
     {
-      "Identity": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/images/whale.jpg",
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\whale.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/lipd/Desktop/481/project_code/BlazorApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/whale.jpg",
       "AssetKind": "All",
@@ -966,7 +1017,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/whale.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\whale.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\images\\wine.jpg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Daniel Chau\\Desktop\\481-Project\\wwwroot\\",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/wine.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wine.jpg"
     }
   ]
 }

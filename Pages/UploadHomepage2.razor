@@ -1,4 +1,4 @@
-@page "/Homepage"
+@page "/UploadHomepage2"
 @using System.Collections.Generic
 
 <div class="main-container">
@@ -6,7 +6,7 @@
     <div class= "left-nav">
     <NavLink href="UploadPage">
         <button title="Add a new collection" class = "add-folder"></button>
-       </NavLink>
+    </NavLink>
   <div class="new-folders">
     @foreach (var item in FolderItems)
     {
@@ -178,7 +178,15 @@
             if(showCheckboxes){
                <MainpageCompare @ref=mainpagecompare/>
           }else{
-                <Mainpage />
+                <Mainpage2 />
+          }
+           
+        }
+          else if (FolderItems.Any(x => x.IsCurrent && x.Text == "Street")){
+            if(showCheckboxes){
+               <Street/>
+          }else{
+                <Street />
           }
            
         }
@@ -392,6 +400,7 @@ public class FolderItem
         new FolderItem { Text = "Main", IsCurrent = true },
         new FolderItem { Text = "New York", IsCurrent = false },
         new FolderItem { Text = "Mountains", IsCurrent = false },
+        new FolderItem { Text = "Street", IsCurrent = false},
         new FolderItem { Text = "Archive", IsCurrent = false },
     };
   
