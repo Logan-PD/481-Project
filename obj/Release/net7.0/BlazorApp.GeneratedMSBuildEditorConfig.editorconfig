@@ -20,12 +20,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Documents/GitHub/481-Project/Pages/AdditionalInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaXRpb25hbEluZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/AdditionalInfo2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaXRpb25hbEluZm8yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Documents/GitHub/481-Project/Pages/Archive.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJjaGl2ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Documents/GitHub/481-Project/Pages/Compare.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/CompareCollections.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZUNvbGxlY3Rpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Documents/GitHub/481-Project/Pages/Counter.razor]
@@ -60,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Mainpage2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2UyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Documents/GitHub/481-Project/Pages/MainpageCompare.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbnBhZ2VDb21wYXJlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,12 +92,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9yay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Documents/GitHub/481-Project/Pages/NewYorkCollectionDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3WW9ya0NvbGxlY3Rpb25EZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Documents/GitHub/481-Project/Pages/NewyorkCompare.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3eW9ya0NvbXBhcmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/Documents/GitHub/481-Project/Pages/Street.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RyZWV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/UploadHomepage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkSG9tZXBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/UploadHomepage2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkSG9tZXBhZ2UyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Documents/GitHub/481-Project/Pages/UploadPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/GitHub/481-Project/Pages/UploadSingle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkU2luZ2xlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Documents/GitHub/481-Project/Pages/YiannisPage.razor]
