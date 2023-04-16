@@ -40,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFyZUNvbGxlY3Rpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Daniel Chau/Desktop/481-Project/Pages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,10 +58,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Daniel Chau/Desktop/481-Project/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/LogansPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nYW5zUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Daniel Chau/Desktop/481-Project/Pages/Login.razor]
@@ -126,10 +118,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Daniel Chau/Desktop/481-Project/Pages/UploadSingle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkU2luZ2xlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Daniel Chau/Desktop/481-Project/Pages/YiannisPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWWlhbm5pc1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Daniel Chau/Desktop/481-Project/_Imports.razor]
