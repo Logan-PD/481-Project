@@ -2,82 +2,165 @@
 
 <div class="upload-page">
   <div class="upload-page-content">
-    <div class="upload-page-header">
-      <h2>Upload Collection</h2>
-      <NavLink class="upload-page-close" href="Homepage"> <button class="upload-page-close-button">x</button> </NavLink >
-    </div>
-    <div class="upload-content">
-      @if (images.Count > 0){
-        <div>
-          <img class="upload-image" src="images/@images[currentImage]" alt="">
+    @if (!additionalInfoScreen) {
+      <div class="upload-page-header">
+          <h2>Upload Collection</h2>
+          <NavLink class="upload-page-close" href="Homepage"> <button class="upload-page-close-button">x</button> </NavLink >
+      </div>
+      <div class="upload-content">
+        @if (images.Count > 0){
+          <div>
+            <img class="upload-image" src="images/@images[currentImage]" alt="">
+          </div>
+        }
+        else {
+          <div class="upload-image empty-image">
+            <img class="upload-icon" src="images/upload.jpg" alt="">
+            <p class="drag-and-drop-text">Drag & drop files or <InputFile OnChange="@addImages" id="browse-link-file-input" class="upload-input" multiple /><label class="browse-file-input-label" for="browse-link-file-input">Browse</label></p>
+            <InputFile OnChange="@addImages" id="browse-button-file-input" class="upload-input" multiple />
+            <label class="browse-label" for="browse-button-file-input">Browse</label>
+            <p class="supported-formats">Supported formats: JPEG and PNG</p>
+          </div>
+        }
+        <div class="upload-details-container">
+          <div class="upload-details"> 
+            <label for="upload-title">Collection Title</label>
+            <input type="text" class="upload-detail" id="upload-title" name="upload-title" @oninput="updateCollectionTitle">
+          </div>
+          <div class="upload-details"> 
+            <label for="upload-description">Collection Description</label>
+            <textarea class="upload-detail upload-description" @oninput="updateCollectionDescription"></textarea>
+          </div>
+          <div class="upload-details"> 
+            <label for="upload-price">Collection Price</label>
+            <input type="number" step='0.01' class="upload-detail" id="upload-price" name="upload-price" @oninput="updateCollectionPrice">
+          </div>
         </div>
+      </div>
+      <div class="upload-status-container">
+        <p>Uploading - @images.Count pictures</p>
+        <div class="upload-status-bars-container">
+        @if (images.Count > 0){
+          var i = 0;
+          while (i < @images.Count) {
+            var j = i;
+            <div class="upload-status">
+              <button class="upload-status-bar" @onclick="() => setCurrentImage(j)" style="animation-duration: @(i*2+7)s">
+                <div class="upload-status-bar-top">
+                  @images[i]
+                  <button class="upload-status-bar-delete" @onclick="() => removeImage(j)">x</button>
+                </div>
+                <div class="upload-status-bar-bottom" style="animation-duration: @(i*2+7)s"></div>
+              </button>
+              <div class="additional-info-button-container">
+                <button class="additional-info-button" @onclick="() => setAdditionalInfo(j)">Add info</button>
+              </div>
+            </div>
+            i += 1;
+          }
+        }
+        </div>
+      </div>
+      @if (images.Count > 0 && collectionTitle != "" && collectionPrice > 0) {
+        <button class="continue-button" @onclick="goToCollection">CONTINUE</button>
+      }
+      else if (images.Count > 0){
+        <button class="continue-button" style= "animation-duration: @(images.Count*2+7)s" @onclick="goToCollection">CONTINUE</button>
       }
       else {
-        <div class="upload-image empty-image">
-          <img class="upload-icon" src="images/upload.jpg" alt="">
-          <p class="drag-and-drop-text">Drag & drop files or <InputFile OnChange="@addImages" id="browse-link-file-input" class="upload-input" multiple /><label class="browse-file-input-label" for="browse-link-file-input">Browse</label></p>
-          <InputFile OnChange="@addImages" id="browse-button-file-input" class="upload-input" multiple />
-          <label class="browse-label" for="browse-button-file-input">Browse</label>
-          <p class="supported-formats">Supported formats: JPEG and PNG</p>
-        </div>
+        <button class="continue-button" style= "background-color: grey; pointer-events: none;">CONTINUE</button>
       }
-      <div class="upload-details-container">
-        <div class="upload-details"> 
-          <label for="upload-title">Collection Title</label>
-          <input type="text" class="upload-detail" id="upload-title" name="upload-title" @oninput="updateTitle">
-        </div>
-        <div class="upload-details"> 
-          <label for="upload-description">Collection Description</label>
-          <textarea class="upload-detail upload-description" @oninput="updateDescription"></textarea>
-        </div>
-        <div class="upload-details"> 
-          <label for="upload-price">Collection Price</label>
-          <input type="number" step='0.01' class="upload-detail" id="upload-price" name="upload-price" @oninput="updatePrice">
-        </div>
-      </div>
-    </div>
-    <div class="upload-status-container">
-      <p>Uploading - @images.Count pictures</p>
-      <div class="upload-status-bars-container">
-      @if (images.Count > 0){
-        var i = 0;
-        while (i < @images.Count) {
-          var j = i;
-          <div class="upload-status">
-            <button class="upload-status-bar" @onclick="() => setCurrentImage(j)" style="animation-duration: @(i*2+7)s">
-              <div class="upload-status-bar-top">
-                @images[i]
-                <button class="upload-status-bar-delete" @onclick="() => removeImage(j)">x</button>
-              </div>
-              <div class="upload-status-bar-bottom" style="animation-duration: @(i*2+7)s"></div>
-            </button>
-            <NavLink class="additional-info-button-link" href="AdditionalInfo?image=street1.jpg"> <button class="additional-info-button">Add info</button> </NavLink >
-          </div>
-          i += 1;
-        }
-      }
-      </div>
-    </div>
-    @if (images.Count > 0){
-      <button class="continue-button" style= "animation-duration: @(images.Count*2+7)s" @onclick="goToCollection">CONTINUE</button>
     }
     else {
-      <button class="continue-button" style= "background-color: grey; pointer-events: none;">CONTINUE</button>
+      <div class="upload-page-header">
+        <h2>Additional Information</h2>
+        <div class="upload-page-close"> <button class="upload-page-close-button" @onclick="collectionsScreen">x</button> </div >
+      </div>
+      <div class="upload-content">
+        <div>
+          <img class="upload-image" src="images/@additionalInfoImage" alt="">
+        </div>
+        <div class="upload-details-container">
+          <div class="upload-details"> 
+            <label for="upload-title">Title</label>
+            <input type="text" class="upload-detail" id="upload-title" name="upload-title" @oninput="updateImageTitle">
+          </div>
+          <div class="upload-details"> 
+            <label for="upload-description">Description</label>
+            <textarea class="upload-detail upload-description" @oninput="updateImageDescription"></textarea>
+          </div>
+          <div class="upload-details"> 
+            <label for="upload-price">Price</label>
+            <input type="number" step='0.01' class="upload-detail" id="upload-price" name="upload-price" @oninput="updateImagePrice">
+          </div>
+        </div>
+      </div>
+      <div class="upload-status-container">
+        <p>Current Photo</p>
+        <div class="upload-status">
+          <button class="upload-status-bar">
+            <div class="upload-status-bar-top">
+              @additionalInfoImage
+            </div>
+          </button>
+        </div>
+      </div>
+      @if (imageTitle != "" && imagePrice > 0) {
+        <button class="continue-button" @onclick="updateImageInfo">SAVE & CONTINUE</button>
+      }
+      else {
+        <button class="continue-button" style= "background-color: grey; pointer-events: none;" @onclick="updateImageInfo">SAVE & CONTINUE</button>
+      }
     }
   </div>
 </div>
 
 @using Microsoft.AspNetCore.WebUtilities
 @using System.Net.Http;
+@using System.Collections.Generic;
 @using Microsoft.AspNetCore.Components.Forms;
 @inject NavigationManager navigationManager;
 @code {
+  bool additionalInfoScreen = false;
+  string additionalInfoImage = "";
+
   List<string> images = new List<string> {};
   private int currentImage = 0;
 
+
   string collectionTitle = "";
-  string collectionDesrciption = "a";
-  float collectionPrice;
+  string collectionDesrciption = "";
+  float collectionPrice = 0;
+
+  string imageTitle = "";
+  string imageDesrciption = "";
+  float imagePrice = 0;
+
+  public class ImageInfo
+  {
+      public string Title { get; set; }
+      public string Description { get; set; }
+      public float Price { get; set; }
+  }
+
+  Dictionary<string, ImageInfo> imagesInfo = new Dictionary<string, ImageInfo>();
+  
+  private void updateImageInfo() {
+    imagesInfo[additionalInfoImage] = new ImageInfo { Title = imageTitle, Description = imageDesrciption, Price = imagePrice };
+    additionalInfoScreen = false;
+  }
+
+  private void setAdditionalInfo(int index) {
+    imageTitle = "";
+    imageDesrciption = "";
+    imagePrice = 0;
+    additionalInfoImage = images[index];
+    additionalInfoScreen = true;
+  }
+
+  private void collectionsScreen() {
+    additionalInfoScreen = false;
+  }
 
   private void removeImage(int index) {
     images.RemoveAt(index);
@@ -87,16 +170,30 @@
     currentImage = index;
   }
 
-  private void updateTitle(ChangeEventArgs e) {
+  private void updateCollectionTitle(ChangeEventArgs e) {
     collectionTitle = (string)e.Value;
   }
 
-  private void updateDescription(ChangeEventArgs e) {
+  private void updateCollectionDescription(ChangeEventArgs e) {
     collectionDesrciption = (string)e.Value;
   }
 
-  private void updatePrice(ChangeEventArgs e) {
+  private void updateCollectionPrice(ChangeEventArgs e) {
     collectionPrice = float.Parse((string) e.Value);
+  }
+
+  private void updateImageTitle(ChangeEventArgs e) {
+    imageTitle = (string)e.Value;
+  }
+
+  private void updateImageDescription(ChangeEventArgs e) {
+    imageDesrciption = (string)e.Value;
+  }
+
+  private void updateImagePrice(ChangeEventArgs e) {
+    if ((string) e.Value != "") {
+      imagePrice = float.Parse((string) e.Value);
+    }
   }
 
   private int numAllowedFiles = 1000;
@@ -362,7 +459,7 @@
     color: white;
   }
 
-  .additional-info-button-link {
+  .additional-info-button-container {
     margin: 0 auto;
     padding-top: 3px;
   }

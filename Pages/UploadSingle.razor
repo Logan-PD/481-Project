@@ -4,19 +4,19 @@
   <div class="upload-page-content">
     <div class="upload-page-header">
       <h2>Upload Photo</h2>
-      <NavLink class="upload-page-close" href="UploadHomepage2"> <button class="upload-page-close-button">x</button> </NavLink >
+      <NavLink class="upload-page-close" href="UploadHomepage"> <button class="upload-page-close-button">x</button> </NavLink >
     </div>
     <div class="upload-content">
-      @if (images.Count > 0){
+      @if (image != ""){
         <div>
-          <img class="upload-image" src="images/@images[currentImage]" alt="">
+          <img class="upload-image" src="images/@image" alt="">
         </div>
       }
       else {
         <div class="upload-image empty-image">
           <img class="upload-icon" src="images/upload.jpg" alt="">
-          <p class="drag-and-drop-text">Drag & drop files or <InputFile OnChange="@addImages" id="browse-link-file-input" class="upload-input" multiple /><label class="browse-file-input-label" for="browse-link-file-input">Browse</label></p>
-          <InputFile OnChange="@addImages" id="browse-button-file-input" class="upload-input" multiple />
+          <p class="drag-and-drop-text">Drag & drop files or <InputFile OnChange="@addImages" id="browse-link-file-input" class="upload-input" /><label class="browse-file-input-label" for="browse-link-file-input">Browse</label></p>
+          <InputFile OnChange="@addImages" id="browse-button-file-input" class="upload-input" />
           <label class="browse-label" for="browse-button-file-input">Browse</label>
           <p class="supported-formats">Supported formats: JPEG and PNG</p>
         </div>
@@ -37,29 +37,31 @@
       </div>
     </div>
     <div class="upload-status-container">
-      <p>Uploading - @images.Count pictures</p>
+      @if (image != "") {
+        <p>Uploading - 1 picture</p>
+      }
+      else {
+        <p>Uploading - 0 pictures</p>
+      }
       <div class="upload-status-bars-container">
-      @if (images.Count > 0){
-        var i = 0;
-        while (i < @images.Count) {
-          var j = i;
-          <div class="upload-status">
-            <button class="upload-status-bar" @onclick="() => setCurrentImage(j)" style="animation-duration: @(i*2+7)s">
-              <div class="upload-status-bar-top">
-                @images[i]
-                <button class="upload-status-bar-delete" @onclick="() => removeImage(j)">x</button>
-              </div>
-              <div class="upload-status-bar-bottom" style="animation-duration: @(i*2+7)s"></div>
-            </button>
-            <NavLink class="additional-info-button-link" href="AdditionalInfo2?image=wine.jpg"> <button class="additional-info-button">Add info</button> </NavLink >
-          </div>
-          i += 1;
-        }
+      @if (image != ""){
+        <div class="upload-status">
+          <button class="upload-status-bar" style="animation-duration: 9s">
+            <div class="upload-status-bar-top">
+              @image
+              <button class="upload-status-bar-delete" @onclick="removeImage">x</button>
+            </div>
+            <div class="upload-status-bar-bottom" style="animation-duration: 9s"></div>
+          </button>
+        </div>
       }
       </div>
     </div>
-    @if (images.Count > 0){
-      <button class="continue-button" style= "animation-duration: @(images.Count*2+7)s" @onclick="goToCollection">CONTINUE</button>
+    @if (image != "" && imageTitle != "" && imagePrice > 0){
+      <button class="continue-button" @onclick="goToCollection">CONTINUE</button>
+    }
+    else if (image != ""){
+      <button class="continue-button" style= "animation-duration: 7s" @onclick="goToCollection">CONTINUE</button>
     }
     else {
       <button class="continue-button" style= "background-color: grey; pointer-events: none;">CONTINUE</button>
@@ -72,43 +74,38 @@
 @using Microsoft.AspNetCore.Components.Forms;
 @inject NavigationManager navigationManager;
 @code {
-  List<string> images = new List<string> {};
-  private int currentImage = 0;
+  private string image = "";
 
-  string collectionTitle = "";
-  string collectionDesrciption = "a";
-  float collectionPrice;
+  string imageTitle = "";
+  string imageDescription = "a";
+  float imagePrice;
 
-  private void removeImage(int index) {
-    images.RemoveAt(index);
-  }
-
-  private void setCurrentImage(int index) {
-    currentImage = index;
+  private void removeImage() {
+    image = "";
   }
 
   private void updateTitle(ChangeEventArgs e) {
-    collectionTitle = (string)e.Value;
+    imageTitle = (string)e.Value;
   }
 
   private void updateDescription(ChangeEventArgs e) {
-    collectionDesrciption = (string)e.Value;
+    imageDescription = (string)e.Value;
   }
 
   private void updatePrice(ChangeEventArgs e) {
-    collectionPrice = float.Parse((string) e.Value);
+    imagePrice = float.Parse((string) e.Value);
   }
 
   private int numAllowedFiles = 1000;
 
   private void addImages(InputFileChangeEventArgs e)
     {
-      images.Clear();
+      image = "";
         foreach (var file in e.GetMultipleFiles(numAllowedFiles))
         {
             try
             {
-                images.Add(file.Name);
+                image = file.Name;
             }
             catch (Exception exception)
             {
